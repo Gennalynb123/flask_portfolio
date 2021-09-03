@@ -32,6 +32,32 @@ def stub():
     return render_template("stub.html")
 
 
+@app.route('/Gennalyn/')
+def Gennalyn():
+    return render_template("Gennalyn.html")
+
+
+@app.route('/Rithwikh/')
+def Rithwikh():
+    return render_template("Rithwikh.html")
+
+@app.route('/Jun/')
+def Jun():
+    return render_template("Jun.html")
+
+
+@app.route('/Lucas/')
+def Lucas():
+    return render_template("Lucas.html")
+
+
+@app.route('/Ali/')
+def Ali():
+    return render_template("Ali.html")
+
+
+
+
 # runs the application on the development server
 if __name__ == "__main__":
     app.run(debug=True)
