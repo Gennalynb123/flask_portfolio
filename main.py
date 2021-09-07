@@ -56,7 +56,6 @@ def Ali():
     return render_template("Ali.html")
 
 
-adskguhaoguhruoighrug
 
 # runs the application on the development server
 if __name__ == "__main__":
