@@ -66,4 +66,3 @@ def Lucas():
 # runs the application on the development server
 if __name__ == "__main__":
     app.run(debug=True)
-kinis
