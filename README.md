@@ -3,7 +3,7 @@
 ## [Insights with Contributors and Commits](https://github.com/Rebecca-123/m223_team_lovelace/graphs/contributors)
 ## Table of Contents
 1. [Contributors](https://github.com/Rebecca-123/m223_team_lovelace#contributors)
-2. [Pair Share Journals](https://docs.google.com/document/d/1WvZphnC7vT6UqtVZ2HngxIULrPpT7rWK3-EGbG_K3Po/edit)[Pair Share Journals] (https://docs.google.com/document/d/1XcHNurxEvFBZuBIZhxlTkx_ClMmk2kVWZFs-sb4uy2E/edit)
+2. [Pair Share Journals](https://github.com/Rebecca-123/m223_team_lovelace#pair-share-journals)
 3. [Project Ideation](https://github.com/Rebecca-123/m223_team_lovelace#project-ideation)
 4. [Sprint 0 - Introduction](https://github.com/Rebecca-123/m223_team_lovelace#introduction---sprint-0)
 5. [Sprints 1,2 - Innovation](https://github.com/Rebecca-123/m223_team_lovelace#innovation---sprints-12)
@@ -11,11 +11,11 @@
 ## Contributors
 | Name | GitHub ID and Profile | Tasks | Scrum Board | Commits |
 |:-----|:----------------------|:-----:|:-----------:|:-------:|
-| Jun Lim | [@the1jun](https://github.com/the1jun) | [Tasks](https://github.com/Rebecca-123/m223_team_lovelace/issues?q=is%3Aissue+assignee%3Achristinlee367) |[Scrum Board](https://github.com/Rebecca-123/m223_team_lovelace/projects/1?card_filter_query=assignee%3Achristinlee367)%7C [Commits](https://github.com/Gennalynb123/flask_portfolio/commits/main)%7C
-| Ŕithwikh Várma| [@guapbeast](https://github.com/guapbeast) | [Tasks](https://github.com/Rebecca-123/m223_team_lovelace/issues?q=is%3Aissue+assignee%3Achristinlee367) |[Scrum Board](https://github.com/Rebecca-123/m223_team_lovelace/projects/1?card_filter_query=assignee%3Achristinlee367)%7C [Commits](https://github.com/Gennalynb123/flask_portfolio/commits/main)%7C
-| Lucas Ho | [@lucasho22](https://github.com/lucasho22) | [Tasks](https://github.com/Rebecca-123/m223_team_lovelace/issues?q=is%3Aissue+assignee%3ARitvik-Keerthi) |[Scrum Board](https://github.com/Rebecca-123/m223_team_lovelace/projects/1?card_filter_query=assignee%3Aritvik-keerthi)%7C [Commits](https://github.com/Gennalynb123/flask_portfolio/commits/main)%7C
-| Gennalyn Bongolan | [@Gennalynb123](https://github.com/Gennalynb123) | [Tasks](https://github.com/Rebecca-123/m223_team_lovelace/issues?q=is%3Aissue+assignee%3A3ghin5) |[Scrum Board](https://github.com/Rebecca-123/m223_team_lovelace/projects/1?card_filter_query=assignee%3A3ghin5)%7C [Commits](https://github.com/Gennalynb123/flask_portfolio/commits/main)%7C
-| Ali Gull | [@William Li](https://github.com/3ghin5) | [Tasks](https://github.com/Rebecca-123/m223_team_lovelace/issues?q=is%3Aissue+assignee%3A3ghin5) |[Scrum Board](https://github.com/Rebecca-123/m223_team_lovelace/projects/1?card_filter_query=assignee%3A3ghin5)%7C [Commits](https://github.com/Gennalynb123/flask_portfolio/commits/main)%7C
+| Jun Lim | [@the1jun](https://github.com/the1jun) | [Tasks](https://github.com/Rebecca-123/m223_team_lovelace/issues?q=is%3Aissue+assignee%3Achristinlee367) |[Scrum Board](https://github.com/Gennalynb123/flask_portfolio/projects/2)%7C [Commits](https://github.com/Gennalynb123/flask_portfolio/commits/main)%7C
+| Ŕithwikh Várma| [@guapbeast](https://github.com/guapbeast) | [Tasks](https://github.com/Rebecca-123/m223_team_lovelace/issues?q=is%3Aissue+assignee%3Achristinlee367) |[Scrum Board](https://github.com/Gennalynb123/flask_portfolio/projects/2)%7C [Commits](https://github.com/Gennalynb123/flask_portfolio/commits/main)%7C
+| Lucas Ho | [@lucasho22](https://github.com/lucasho22) | [Tasks](https://github.com/Rebecca-123/m223_team_lovelace/issues?q=is%3Aissue+assignee%3ARitvik-Keerthi) |[Scrum Board](https://github.com/Gennalynb123/flask_portfolio/projects/2)%7C [Commits](https://github.com/Gennalynb123/flask_portfolio/commits/main)%7C
+| Gennalyn Bongolan | [@Gennalynb123](https://github.com/Gennalynb123) | [Tasks](https://github.com/Rebecca-123/m223_team_lovelace/issues?q=is%3Aissue+assignee%3A3ghin5) |[Scrum Board](https://github.com/Gennalynb123/flask_portfolio/projects/2)%7C [Commits](https://github.com/Gennalynb123/flask_portfolio/commits/main)%7C
+| Ali Gull | [@William Li](https://github.com/3ghin5) | [Tasks](https://github.com/Rebecca-123/m223_team_lovelace/issues?q=is%3Aissue+assignee%3A3ghin5) |[Scrum Board](https://github.com/Gennalynb123/flask_portfolio/projects/2)%7C [Commits](https://github.com/Gennalynb123/flask_portfolio/commits/main)%7C
 ## Pair Share Journals
 ### [Lucas, Ŕithwikh, and Gennalyn's Journal](https://docs.google.com/document/d/1XcHNurxEvFBZuBIZhxlTkx_ClMmk2kVWZFs-sb4uy2E/edit)
 ### [Jun and Ali's Journal](https://docs.google.com/document/d/1WvZphnC7vT6UqtVZ2HngxIULrPpT7rWK3-EGbG_K3Po/edit)
