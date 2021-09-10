@@ -1,4 +1,4 @@
-# AP CSP Period 3: Juns Team
+# AP CSP Period 3: Jun's Team
 ## [Scrum Board](https://github.com/Gennalynb123/flask_portfolio)
 ## [Insights with Contributors and Commits](https://github.com/Rebecca-123/m223_team_lovelace/graphs/contributors)
 ## Table of Contents
@@ -11,13 +11,14 @@
 ## Contributors
 | Name | GitHub ID and Profile | Tasks | Scrum Board | Commits |
 |:-----|:----------------------|:-----:|:-----------:|:-------:|
-| Gennalyn Bongolan | [@Gennalynb123](https://github.com/christinlee367) | [Tasks](https://github.com/Rebecca-123/m223_team_lovelace/issues?q=is%3Aissue+assignee%3Achristinlee367) |[Scrum Board](https://github.com/Rebecca-123/m223_team_lovelace/projects/1?card_filter_query=assignee%3Achristinlee367)%7C [Commits](https://github.com/Rebecca-123/m223_team_lovelace/commits?author=christinlee367)%7C
-| Rebecca Su | [@Rebecca-123](https://github.com/Rebecca-123) | [Tasks](https://github.com/Rebecca-123/m223_team_lovelace/issues?q=is%3Aissue+assignee%3ARebecca-123)%7C[Scrum Board](https://github.com/Rebecca-123/m223_team_lovelace/projects/1?card_filter_query=assignee%3Arebecca-123)%7C [Commits](https://github.com/Rebecca-123/m223_team_lovelace/commits?author=Rebecca-123)%7C
-| Ritvik Keerthi | [@Ritvik Keerthi](https://github.com/Ritvik-Keerthi) | [Tasks](https://github.com/Rebecca-123/m223_team_lovelace/issues?q=is%3Aissue+assignee%3ARitvik-Keerthi) |[Scrum Board](https://github.com/Rebecca-123/m223_team_lovelace/projects/1?card_filter_query=assignee%3Aritvik-keerthi)%7C [Commits](https://github.com/Rebecca-123/m223_team_lovelace/commits?author=Ritvik-Keerthi)%7C
-| William Li | [@William Li](https://github.com/3ghin5) | [Tasks](https://github.com/Rebecca-123/m223_team_lovelace/issues?q=is%3Aissue+assignee%3A3ghin5) |[Scrum Board](https://github.com/Rebecca-123/m223_team_lovelace/projects/1?card_filter_query=assignee%3A3ghin5)%7C [Commits](https://github.com/Rebecca-123/m223_team_lovelace/commits?author=3ghin5)%7C
+| Jun Lim | [@christinlee367](https://github.com/christinlee367) | [Tasks](https://github.com/Rebecca-123/m223_team_lovelace/issues?q=is%3Aissue+assignee%3Achristinlee367) |[Scrum Board](https://github.com/Rebecca-123/m223_team_lovelace/projects/1?card_filter_query=assignee%3Achristinlee367)%7C [Commits](https://github.com/Rebecca-123/m223_team_lovelace/commits?author=christinlee367)%7C
+| Ŕithwikh Várma| [@Rebecca-123](https://github.com/Rebecca-123) | [Tasks](https://github.com/Rebecca-123/m223_team_lovelace/issues?q=is%3Aissue+assignee%3ARebecca-123)%7C[Scrum Board](https://github.com/Rebecca-123/m223_team_lovelace/projects/1?card_filter_query=assignee%3Arebecca-123)%7C [Commits](https://github.com/Rebecca-123/m223_team_lovelace/commits?author=Rebecca-123)%7C
+| Lucas Ho | [@lucasho22](https://github.com/lucasho22) | [Tasks](https://github.com/Rebecca-123/m223_team_lovelace/issues?q=is%3Aissue+assignee%3ARitvik-Keerthi) |[Scrum Board](https://github.com/Rebecca-123/m223_team_lovelace/projects/1?card_filter_query=assignee%3Aritvik-keerthi)%7C [Commits](https://github.com/Rebecca-123/m223_team_lovelace/commits?author=Ritvik-Keerthi)%7C
+| Gennalyn Bongolan | [@Gennalynb123](https://github.com/Gennalynb123) | [Tasks](https://github.com/Rebecca-123/m223_team_lovelace/issues?q=is%3Aissue+assignee%3A3ghin5) |[Scrum Board](https://github.com/Rebecca-123/m223_team_lovelace/projects/1?card_filter_query=assignee%3A3ghin5)%7C [Commits](https://github.com/Rebecca-123/m223_team_lovelace/commits?author=3ghin5)%7C
+| Ali Gull | [@William Li](https://github.com/3ghin5) | [Tasks](https://github.com/Rebecca-123/m223_team_lovelace/issues?q=is%3Aissue+assignee%3A3ghin5) |[Scrum Board](https://github.com/Rebecca-123/m223_team_lovelace/projects/1?card_filter_query=assignee%3A3ghin5)%7C [Commits](https://github.com/Rebecca-123/m223_team_lovelace/commits?author=3ghin5)%7C
 ## Pair Share Journals
-### [Gennalyn Bongolan, Lucas Ho, Rithwikh Varma Journal](https://docs.google.com/document/d/1XcHNurxEvFBZuBIZhxlTkx_ClMmk2kVWZFs-sb4uy2E/edit)
-### [Jun Lim, Ali Journal](https://docs.google.com/document/d/1WvZphnC7vT6UqtVZ2HngxIULrPpT7rWK3-EGbG_K3Po/edit)
+### [Ritvik Keerthi and William Li Journal](https://docs.google.com/document/d/1yTmP6R16Gsj7J-Nt4jP-sOAtXwmaNLJ-t-T8G6riBp0/edit?usp=sharing)
+### [Christina Lee and Rebecca Su Journal](https://docs.google.com/document/d/1rxDS-Su8Yf-JtRhYigMewVp3HRqp1VQKlIGGpcutEeI/edit)
 ## Project Ideation
 ### Unique Idea: celestial themed website with objects rotated around (gallery)
 #### Viewers can learn more about objects by clicking on images
