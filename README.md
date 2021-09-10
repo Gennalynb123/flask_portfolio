@@ -1,5 +1,5 @@
-# AP Computer Science Principles, Period 3: Jun's Team
-## [Scrum Board](https://github.com/Gennalynb123/flask_portfolio/projects/2)
+# AP CSP Period 3: Jun's Team
+## [Scrum Board](https://github.com/Gennalynb123/flask_portfolio)
 ## [Insights with Contributors and Commits](https://github.com/Rebecca-123/m223_team_lovelace/graphs/contributors)
 ## Table of Contents
 1. [Contributors](https://github.com/Rebecca-123/m223_team_lovelace#contributors)
@@ -15,10 +15,10 @@
 | Ŕithwikh Várma| [@guapbeast](https://github.com/guapbeast) | [Tasks](https://github.com/Rebecca-123/m223_team_lovelace/issues?q=is%3Aissue+assignee%3ARebecca-123)%7C[Scrum Board](https://github.com/Rebecca-123/m223_team_lovelace/projects/1?card_filter_query=assignee%3Arebecca-123)%7C [Commits](https://github.com/Rebecca-123/m223_team_lovelace/commits?author=Rebecca-123)%7C
 | Lucas Ho | [@lucasho22](https://github.com/lucasho22) | [Tasks](https://github.com/Rebecca-123/m223_team_lovelace/issues?q=is%3Aissue+assignee%3ARitvik-Keerthi) |[Scrum Board](https://github.com/Rebecca-123/m223_team_lovelace/projects/1?card_filter_query=assignee%3Aritvik-keerthi)%7C [Commits](https://github.com/Rebecca-123/m223_team_lovelace/commits?author=Ritvik-Keerthi)%7C
 | Gennalyn Bongolan | [@Gennalynb123](https://github.com/Gennalynb123) | [Tasks](https://github.com/Rebecca-123/m223_team_lovelace/issues?q=is%3Aissue+assignee%3A3ghin5) |[Scrum Board](https://github.com/Rebecca-123/m223_team_lovelace/projects/1?card_filter_query=assignee%3A3ghin5)%7C [Commits](https://github.com/Rebecca-123/m223_team_lovelace/commits?author=3ghin5)%7C
-| Ali Gull | [@sayed123455](https://github.com/sayed123455) | [Tasks](https://github.com/Rebecca-123/m223_team_lovelace/issues?q=is%3Aissue+assignee%3A3ghin5) |[Scrum Board](https://github.com/Rebecca-123/m223_team_lovelace/projects/1?card_filter_query=assignee%3A3ghin5)%7C [Commits](https://github.com/Rebecca-123/m223_team_lovelace/commits?author=3ghin5)%7C
+| Ali Gull | [@William Li](https://github.com/3ghin5) | [Tasks](https://github.com/Rebecca-123/m223_team_lovelace/issues?q=is%3Aissue+assignee%3A3ghin5) |[Scrum Board](https://github.com/Rebecca-123/m223_team_lovelace/projects/1?card_filter_query=assignee%3A3ghin5)%7C [Commits](https://github.com/Rebecca-123/m223_team_lovelace/commits?author=3ghin5)%7C
 ## Pair Share Journals
-### [Lucas Ho, Gennalyn Bongolan and Ŕithwikh Várma's Journal](https://docs.google.com/document/d/1XcHNurxEvFBZuBIZhxlTkx_ClMmk2kVWZFs-sb4uy2E/edit)
-### [Jun Lim and Ali Gull Journal](https://docs.google.com/document/d/1WvZphnC7vT6UqtVZ2HngxIULrPpT7rWK3-EGbG_K3Po/edit?usp=sharing)
+### [Lucas, Rithwikh, and Gennalyn Journal](https://docs.google.com/document/d/1XcHNurxEvFBZuBIZhxlTkx_ClMmk2kVWZFs-sb4uy2E/edit)
+### [Jun and Ali Journal](https://docs.google.com/document/d/1WvZphnC7vT6UqtVZ2HngxIULrPpT7rWK3-EGbG_K3Po/edit)
 ## Project Ideation
 ### Unique Idea: celestial themed website with objects rotated around (gallery)
 #### Viewers can learn more about objects by clicking on images
