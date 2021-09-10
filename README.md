@@ -20,7 +20,7 @@
 ### [Lucas, Rithwikh, and Gennalyn Journal](https://docs.google.com/document/d/1XcHNurxEvFBZuBIZhxlTkx_ClMmk2kVWZFs-sb4uy2E/edit)
 ### [Jun and Ali Journal](https://docs.google.com/document/d/1WvZphnC7vT6UqtVZ2HngxIULrPpT7rWK3-EGbG_K3Po/edit)
 ## Project Ideation
-### Unique Idea: celestial themed website with objects rotated around (gallery)
+### Our Idea: A website that gives the user a personality test
 #### Viewers can learn more about objects by clicking on images
 #### Website will also contain work from Test Prep Tuesday, Tech Talks and information about team members
 ### Visual Thoughts
