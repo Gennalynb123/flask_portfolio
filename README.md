@@ -2,12 +2,12 @@
 ## [Scrum Board](https://github.com/Gennalynb123/flask_portfolio)
 ## [Insights with Contributors and Commits](https://github.com/Rebecca-123/m223_team_lovelace/graphs/contributors)
 ## Table of Contents
-1. [Contributors](https://github.com/Rebecca-123/m223_team_lovelace#contributors)
-2. [Pair Share Journals](https://github.com/Rebecca-123/m223_team_lovelace#pair-share-journals)
-3. [Project Ideation](https://github.com/Rebecca-123/m223_team_lovelace#project-ideation)
-4. [Sprint 0 - Introduction](https://github.com/Rebecca-123/m223_team_lovelace#introduction---sprint-0)
-5. [Sprints 1,2 - Innovation](https://github.com/Rebecca-123/m223_team_lovelace#innovation---sprints-12)
-6. [Sprints 3,4 - Prototyping](https://github.com/Rebecca-123/m223_team_lovelace#prototyping---sprints-3-4)
+1. [Contributors](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md)
+2. [Pair Share Journals](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md)
+3. [Project Ideation](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md)
+4. [Sprint 0 - Introduction](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md)
+5. [Sprints 1,2 - Innovation](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md)
+6. [Sprints 3,4 - Prototyping](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md)
 ## Contributors
 | Name | GitHub ID and Profile | Tasks | Scrum Board | Commits |
 |:-----|:----------------------|:-----:|:-----------:|:-------:|
