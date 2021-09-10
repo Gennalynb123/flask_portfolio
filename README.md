@@ -22,10 +22,10 @@
 ## Project Ideation
 ### Our Idea: A website that gives the user a personality test
 #### Our Audience can learn about their personality type based on their answers on the test.
-#### Our website will have information on those who worked on it as well as information about it's prouction
-### Visual Thoughts
-#### Home page: gallery of celestial objects
-#### Each image will link to a page with more detailed information about the object
+#### Our website will have information on those who worked on it as well as information about it's production
+### Frontside Ideas
+#### Our homepage will be a directory that helps guide our audience to different personality tests.
+#### Tests will ask the audience a series of questions, and will determine traits specific to the audience based on the answers chosen.
 #### Nav bar with Home, About > dropdown with team members, Celestial Objects > dropdown with different objects, Mini-Labs > dropdown with different pages including a greetings page, Journals
 white_check_mark
 eyes
