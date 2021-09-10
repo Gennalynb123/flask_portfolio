@@ -17,7 +17,7 @@
 | Gennalyn Bongolan | [@Gennalynb123](https://github.com/Gennalynb123) | [Tasks](https://github.com/Rebecca-123/m223_team_lovelace/issues?q=is%3Aissue+assignee%3A3ghin5) |[Scrum Board](https://github.com/Rebecca-123/m223_team_lovelace/projects/1?card_filter_query=assignee%3A3ghin5)%7C [Commits](https://github.com/Rebecca-123/m223_team_lovelace/commits?author=3ghin5)%7C
 | Ali Gull | [@sayed123455](https://github.com/sayed123455) | [Tasks](https://github.com/Rebecca-123/m223_team_lovelace/issues?q=is%3Aissue+assignee%3A3ghin5) |[Scrum Board](https://github.com/Rebecca-123/m223_team_lovelace/projects/1?card_filter_query=assignee%3A3ghin5)%7C [Commits](https://github.com/Rebecca-123/m223_team_lovelace/commits?author=3ghin5)%7C
 ## Pair Share Journals
-### [Ritvik Keerthi and William Li Journal](https://docs.google.com/document/d/1XcHNurxEvFBZuBIZhxlTkx_ClMmk2kVWZFs-sb4uy2E/edit)
+### [Lucas Ho, Gennalyn Bongolan and Ŕithwikh Várma's Journal](https://docs.google.com/document/d/1XcHNurxEvFBZuBIZhxlTkx_ClMmk2kVWZFs-sb4uy2E/edit)
 ### [Christina Lee and Rebecca Su Journal](https://docs.google.com/document/d/1rxDS-Su8Yf-JtRhYigMewVp3HRqp1VQKlIGGpcutEeI/edit)
 ## Project Ideation
 ### Unique Idea: celestial themed website with objects rotated around (gallery)
