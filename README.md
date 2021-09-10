@@ -1,4 +1,4 @@
-# AP CSP Period 3: Jun's Team
+# AP Computer Science Principles, Period 3: Jun's Team
 ## [Scrum Board](https://github.com/Gennalynb123/flask_portfolio)
 ## [Insights with Contributors and Commits](https://github.com/Rebecca-123/m223_team_lovelace/graphs/contributors)
 ## Table of Contents
