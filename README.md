@@ -21,8 +21,8 @@
 ### [Jun and Ali Journal](https://docs.google.com/document/d/1WvZphnC7vT6UqtVZ2HngxIULrPpT7rWK3-EGbG_K3Po/edit)
 ## Project Ideation
 ### Our Idea: A website that gives the user a personality test
-#### Viewers can learn more about objects by clicking on images
-#### Website will also contain work from Test Prep Tuesday, Tech Talks and information about team members
+#### Our Audience can learn about their personality type based on their answers on the test.
+#### Our website will have information on those who worked on it as well as information about it's prouction
 ### Visual Thoughts
 #### Home page: gallery of celestial objects
 #### Each image will link to a page with more detailed information about the object
