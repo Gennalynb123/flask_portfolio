@@ -26,3 +26,4 @@ Starter code should be fun and practical.
 #### We added new stubs with our team members' names and worked on greeting pages that greet the user.
 #### We worked on using CSS to change the background and add stylistic elements to our Webpage
 #### We worked on adding the binary stub to our webpage and added lightbulb functionality allowing for the function of lightbulbs to depict binary funation.
+#### We worked on adding minor fixes and improvements to our website and worked to redefine our plans for our website.
