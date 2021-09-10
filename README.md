@@ -1,5 +1,5 @@
-# AP CSP Period 3: Team Lovelace
-## [Scrum Board](https://github.com/Rebecca-123/m223_team_lovelace/projects/1)
+# AP CSP Period 3: Juns Team
+## [Scrum Board](https://github.com/Gennalynb123/flask_portfolio)
 ## [Insights with Contributors and Commits](https://github.com/Rebecca-123/m223_team_lovelace/graphs/contributors)
 ## Table of Contents
 1. [Contributors](https://github.com/Rebecca-123/m223_team_lovelace#contributors)
