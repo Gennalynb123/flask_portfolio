@@ -11,16 +11,16 @@
 ## Contributors
 | Name | GitHub ID and Profile | Tasks | Scrum Board | Commits |
 |:-----|:----------------------|:-----:|:-----------:|:-------:|
-| Jun Lim | [@the1jun](https://github.com/the1jun) | [Tasks](https://github.com/Rebecca-123/m223_team_lovelace/issues?q=is%3Aissue+assignee%3Achristinlee367) |[Scrum Board](https://github.com/Gennalynb123/flask_portfolio/projects/2) | [Commits](https://github.com/Gennalynb123/flask_portfolio/commits/main)
-| Ŕithwikh Várma| [@guapbeast](https://github.com/guapbeast) | [Tasks](https://github.com/Rebecca-123/m223_team_lovelace/issues?q=is%3Aissue+assignee%3Achristinlee367) |[Scrum Board](https://github.com/Gennalynb123/flask_portfolio/projects/2) | [Commits](https://github.com/Gennalynb123/flask_portfolio/commits/main)
-| Lucas Ho | [@lucasho22](https://github.com/lucasho22) | [Tasks](https://github.com/Rebecca-123/m223_team_lovelace/issues?q=is%3Aissue+assignee%3ARitvik-Keerthi) |[Scrum Board](https://github.com/Gennalynb123/flask_portfolio/projects/2) |[Commits](https://github.com/Gennalynb123/flask_portfolio/commits/main)
-| Gennalyn Bongolan | [@Gennalynb123](https://github.com/Gennalynb123) | [Tasks](https://github.com/Rebecca-123/m223_team_lovelace/issues?q=is%3Aissue+assignee%3A3ghin5) |[Scrum Board](https://github.com/Gennalynb123/flask_portfolio/projects/2) |[Commits](https://github.com/Gennalynb123/flask_portfolio/commits/main)
+| Jun Lim | [@the1jun](https://github.com/the1jun) | [Tasks](https://github.com/Gennalynb123/flask_portfolio/projects/2#card-68554960) |[Scrum Board](https://github.com/Gennalynb123/flask_portfolio/projects/2) | [Commits](https://github.com/Gennalynb123/flask_portfolio/commits/main)
+| Ŕithwikh Várma| [@guapbeast](https://github.com/guapbeast) | [Tasks](https://github.com/Gennalynb123/flask_portfolio/projects/2#card-68554850) |[Scrum Board](https://github.com/Gennalynb123/flask_portfolio/projects/2) | [Commits](https://github.com/Gennalynb123/flask_portfolio/commits/main)
+| Lucas Ho | [@lucasho22](https://github.com/lucasho22) | [Tasks](https://github.com/Gennalynb123/flask_portfolio/projects/2#card-68559291) |[Scrum Board](https://github.com/Gennalynb123/flask_portfolio/projects/2) |[Commits](https://github.com/Gennalynb123/flask_portfolio/commits/main)
+| Gennalyn Bongolan | [@Gennalynb123](https://github.com/Gennalynb123) | [Tasks](https://github.com/Gennalynb123/flask_portfolio/projects/2#card-68554609) |[Scrum Board](https://github.com/Gennalynb123/flask_portfolio/projects/2) |[Commits](https://github.com/Gennalynb123/flask_portfolio/commits/main)
 | Ali Gull | [@sayed123455](https://github.com/sayed123455) | [Tasks](https://github.com/Gennalynb123/flask_portfolio/projects/2#card-68559348) |[Scrum Board](https://github.com/Gennalynb123/flask_portfolio/projects/2) |[Commits](https://github.com/Gennalynb123/flask_portfolio/commits/main)
 ## Pair Share Journals
 ### [Lucas, Ŕithwikh, and Gennalyn's Journal](https://docs.google.com/document/d/1XcHNurxEvFBZuBIZhxlTkx_ClMmk2kVWZFs-sb4uy2E/edit)
 ### [Jun and Ali's Journal](https://docs.google.com/document/d/1WvZphnC7vT6UqtVZ2HngxIULrPpT7rWK3-EGbG_K3Po/edit)
 ## Project Ideation
-### Our Idea: A website that gives the user a personality test
+### Our Idea: A website that gives the user a personality test and recommends music based on their given personality type
 #### Our Audience can learn about their personality type based on their answers on the test.
 #### Our website will have information on those who worked on it as well as information about it's production
 ### Frontside Ideas
