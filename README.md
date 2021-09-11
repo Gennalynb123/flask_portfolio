@@ -1,6 +1,6 @@
 # AP CSP Period 3: Jun's Team
 ## [Scrum Board](https://github.com/Gennalynb123/flask_portfolio)
-## [Insights with Contributors and Commits](https://github.com/Rebecca-123/m223_team_lovelace/graphs/contributors)
+## [Insights with Contributors and Commits](https://github.com/Gennalynb123/flask_portfolio/commits/main)
 ## Table of Contents
 1. [Contributors](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md)
 2. [Pair Share Journals](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md)
