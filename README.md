@@ -31,5 +31,3 @@
 #### Our Webpage will have a top facing navigation bar with links to a homepage
 
 
-https://drive.google.com/drive/folders/14VUYDYmwswaDMb8-JK4YqOccHa42-vMJ
-
