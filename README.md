@@ -25,6 +25,8 @@
 #### Our website will have information on those who worked on it as well as information about it's production
 ## [Sprint 0 - Introduction]
 ### [Link to Sprint 0](https://drive.google.com/drive/folders/14VUYDYmwswaDMb8-JK4YqOccHa42-vMJ)
+## [Sprint 1 and 2 - Innovation]
+### Sprints 1 & 2 (https://github.com/Gennalynb123/flask_portfolio/projects/2)
 ### Frontside Ideas
 #### Our homepage will be a directory that helps guide our audience to different personality tests.
 #### Tests will ask the audience a series of questions, and will determine traits specific to the audience based on the answers chosen.
