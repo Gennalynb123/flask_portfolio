@@ -10,6 +10,7 @@ app = Flask(__name__)
 def index():
     return render_template("index.html")
 
+
 @app.route('/greet', methods=['GET', 'POST'])
 def greet():
     # submit button has been pushed
@@ -59,8 +60,6 @@ def Jun():
 @app.route('/Lucas/')
 def Lucas():
     return render_template("Lucas.html")
-
-
 
 
 # runs the application on the development server
