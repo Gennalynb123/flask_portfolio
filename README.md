@@ -5,7 +5,7 @@
 1. [Contributors](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md#contributors)
 2. [Pair Share Journals](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md#pair-share-journals)
 3. [Project Ideation](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md#project-ideation)
-4. [Sprint 0 - Introduction](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md)
+4. [Sprint 0 - Introduction](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md#sprint-0---introduction)
 5. [Sprints 1,2 - Innovation](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md)
 6. [Sprints 3,4 - Prototyping](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md#contributors)
 ## Contributors
@@ -23,7 +23,7 @@
 ### Our Idea: A website that gives the user a personality test and recommends music based on their given personality type
 #### Our Audience can learn about their personality type based on their answers on the test.
 #### Our website will have information on those who worked on it as well as information about it's production
-### Sprint 0 - Introduction
+### [Sprint 0 - Introduction] (https://drive.google.com/drive/folders/14VUYDYmwswaDMb8-JK4YqOccHa42-vMJ)
 ### Frontside Ideas
 #### Our homepage will be a directory that helps guide our audience to different personality tests.
 #### Tests will ask the audience a series of questions, and will determine traits specific to the audience based on the answers chosen.
