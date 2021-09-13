@@ -4,7 +4,7 @@
 ## Table of Contents
 1. [Contributors](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md#contributors)
 2. [Pair Share Journals](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md#pair-share-journals)
-3. [Project Ideation](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md)
+3. [Project Ideation](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md#project-ideation)
 4. [Sprint 0 - Introduction](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md)
 5. [Sprints 1,2 - Innovation](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md)
 6. [Sprints 3,4 - Prototyping](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md#contributors)
