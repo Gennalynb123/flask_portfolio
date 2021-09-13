@@ -6,7 +6,7 @@
 2. [Pair Share Journals](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md#pair-share-journals)
 3. [Project Ideation](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md#project-ideation)
 4. [Sprint 0 - Introduction](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md#sprint-0---introduction)
-5. [Sprints 1,2 - Innovation](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md)
+5. [Sprints 1,2 - Innovation](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md#sprint-1-and-2---innovation)
 6. [Sprints 3,4 - Prototyping](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md#contributors)
 ## Contributors
 | Name | GitHub ID and Profile | Tasks | Scrum Board | Commits |
