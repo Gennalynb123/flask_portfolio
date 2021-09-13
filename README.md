@@ -23,6 +23,7 @@
 ### Our Idea: A website that gives the user a personality test and recommends music based on their given personality type
 #### Our Audience can learn about their personality type based on their answers on the test.
 #### Our website will have information on those who worked on it as well as information about it's production
+### Sprint 0 - Introduction
 ### Frontside Ideas
 #### Our homepage will be a directory that helps guide our audience to different personality tests.
 #### Tests will ask the audience a series of questions, and will determine traits specific to the audience based on the answers chosen.
