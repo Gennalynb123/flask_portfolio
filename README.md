@@ -1,5 +1,5 @@
 # AP CSP Period 3: Jun's Team
-## [Scrum Board](https://github.com/Gennalynb123/flask_portfolio)
+## [Scrum Board](https://github.com/Gennalynb123/flask_portfolio/projects/2)
 ## [Insights with Contributors and Commits](https://github.com/Gennalynb123/flask_portfolio/commits/main)
 ## Table of Contents
 1. [Contributors](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md)
