@@ -28,7 +28,7 @@
 ## [Sprint 1 and 2 - Innovation]
 ### [Sprints 1 & 2](https://github.com/Gennalynb123/flask_portfolio/projects/2)
 ## [Sprint 3 and 4]
-### [Sprints 3 & 4](https://github.com/Gennalynb123/flask_portfolio/projects/2)
+### [Sprints 3 & 4 - Prototyping](https://github.com/Gennalynb123/flask_portfolio/projects/2)
 ### Frontside Ideas
 #### Our homepage will be a directory that helps guide our audience to different personality tests.
 #### Tests will ask the audience a series of questions, and will determine traits specific to the audience based on the answers chosen.
