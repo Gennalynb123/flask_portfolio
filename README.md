@@ -7,7 +7,7 @@
 3. [Project Ideation](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md)
 4. [Sprint 0 - Introduction](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md)
 5. [Sprints 1,2 - Innovation](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md)
-6. [Sprints 3,4 - Prototyping](https://github.com/Gennalynb123/flask_portfolio/blob/Contributors/README.md)
+6. [Sprints 3,4 - Prototyping](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md)
 ## Contributors
 | Name | GitHub ID and Profile | Tasks | Scrum Board | Commits |
 |:-----|:----------------------|:-----:|:-----------:|:-------:|
