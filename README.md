@@ -32,6 +32,6 @@
 ### Frontside Ideas
 #### Our homepage will be a directory that helps guide our audience to different personality tests.
 #### Tests will ask the audience a series of questions, and will determine traits specific to the audience based on the answers chosen.
-#### Our Webpage will have a top facing navigation bar with links to a homepage
+#### Our Webpage will have a top facing navigation bar with links to a homepage.
 
 
