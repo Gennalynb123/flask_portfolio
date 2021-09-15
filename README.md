@@ -1,3 +1,7 @@
+![images](https://user-images.githubusercontent.com/86858869/133497073-51c27b62-69c2-4720-be8f-d487e63092b3.jpeg)
+![debbie](https://user-images.githubusercontent.com/86858869/133496855-f77f48bb-b526-4f32-a0e0-e2180f0d9857.jpeg) width = "61"
+![4390c9baf96f829ecb98f98a5c54d7b7](https://user-images.githubusercontent.com/86858869/133496501-320ad6e7-9888-4d68-bf79-2cf1fec9f02f.jpg)
+![e57a8dnijiw41](https://user-images.githubusercontent.com/86858869/133496291-4c475d85-e258-4c0d-9a03-ff8a1125595d.jpg)
 # AP CSP Period 3: Jun's Team
 ## [Scrum Board](https://github.com/Gennalynb123/flask_portfolio/projects/2)
 ## [Insights with Contributors and Commits](https://github.com/Gennalynb123/flask_portfolio/commits/main)
@@ -15,7 +19,7 @@
 | Ŕithwikh Várma| [@guapbeast](https://github.com/guapbeast) | [Tasks](https://github.com/Gennalynb123/flask_portfolio/projects/2#card-68554850) |[Scrum Board](https://github.com/Gennalynb123/flask_portfolio/projects/2) | [Commits](https://github.com/Gennalynb123/flask_portfolio/commits?author=guapbeast)
 | Lucas Ho | [@lucasho22](https://github.com/lucasho22) | [Tasks](https://github.com/Gennalynb123/flask_portfolio/projects/2#card-68559291) |[Scrum Board](https://github.com/Gennalynb123/flask_portfolio/projects/2) |[Commits](https://github.com/Gennalynb123/flask_portfolio/commits?author=lucasho22)
 | Gennalyn Bongolan | [@Gennalynb123](https://github.com/Gennalynb123) | [Tasks](https://github.com/Gennalynb123/flask_portfolio/projects/2#card-68554609) |[Scrum Board](https://github.com/Gennalynb123/flask_portfolio/projects/2) |[Commits](https://github.com/Gennalynb123/flask_portfolio/commits?author=Gennalynb123)
-| Ali Gull | [@sayed123455](https://github.com/sayed123455) | [Tasks](https://github.com/Gennalynb123/flask_portfolio/projects/2#card-68559348) |[Scrum Board](https://github.com/Gennalynb123/flask_portfolio/projects/2) |[Commits](https://github.com/Gennalynb123/flask_portfolio/commits?author=sayed123455)
+| Ali Gull | [@sayed123455](https://github.com/sayed123455) | [Tasks](https://github.com/Gennalynb123/flask_portfolio/projects/2#card-68559348) |[Scrum Board](https://github.com/Gennalynb123/flask_portfolio/projects/2) |[Commits]()
 ## Pair Share Journals
 ### [Lucas, Ŕithwikh, and Gennalyn's Journal](https://docs.google.com/document/d/1XcHNurxEvFBZuBIZhxlTkx_ClMmk2kVWZFs-sb4uy2E/edit)
 ### [Jun and Ali's Journal](https://docs.google.com/document/d/1WvZphnC7vT6UqtVZ2HngxIULrPpT7rWK3-EGbG_K3Po/edit)
