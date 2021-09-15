@@ -3,7 +3,14 @@
 {% extends "layouts/base.html" %}
 
 {% block background %}
+    <head>
+        <title>color</title>
+    </head>
+    <body style="background-color:#0884ab;">
+
+    </body>
 {% endblock %}
+
 
 <!-- Search for all the Hack: below for hack-a-thon and mini-lab requirements -->
 <!-- need to adjust Templates to start -->
@@ -150,7 +157,7 @@
                 <table class="table">
                     <tr>
                         {% for i in range(BITS) %}
-                            <td><img class="img-responsive py-3" id="bulb{{i}}" src="{{ imgBulbOff }}" alt="" width="40" height="Auto">
+                            <td><img class="img-responsive py-3" id="bulb{{i}}" src="{{ imgBulbOff }}" alt="" width="61" height="80">
                                 <button type="button" id="butt{{i}}" onclick="toggleBit('{{i}}')">{{ msgTurnOn }}</button>
                             </td>
                         {% endfor %}
