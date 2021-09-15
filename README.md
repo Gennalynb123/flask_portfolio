@@ -1,6 +1,3 @@
-![debbie](https://user-images.githubusercontent.com/86858869/133496855-f77f48bb-b526-4f32-a0e0-e2180f0d9857.jpeg)
-![4390c9baf96f829ecb98f98a5c54d7b7](https://user-images.githubusercontent.com/86858869/133496501-320ad6e7-9888-4d68-bf79-2cf1fec9f02f.jpg)
-![e57a8dnijiw41](https://user-images.githubusercontent.com/86858869/133496291-4c475d85-e258-4c0d-9a03-ff8a1125595d.jpg)
 # AP CSP Period 3: Jun's Team
 ## [Scrum Board](https://github.com/Gennalynb123/flask_portfolio/projects/2)
 ## [Insights with Contributors and Commits](https://github.com/Gennalynb123/flask_portfolio/commits/main)
