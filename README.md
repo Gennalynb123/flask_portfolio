@@ -15,7 +15,7 @@
 | Ŕithwikh Várma| [@guapbeast](https://github.com/guapbeast) | [Tasks](https://github.com/Gennalynb123/flask_portfolio/projects/2#card-68554850) |[Scrum Board](https://github.com/Gennalynb123/flask_portfolio/projects/2) | [Commits](https://github.com/Gennalynb123/flask_portfolio/commits?author=guapbeast)
 | Lucas Ho | [@lucasho22](https://github.com/lucasho22) | [Tasks](https://github.com/Gennalynb123/flask_portfolio/projects/2#card-68559291) |[Scrum Board](https://github.com/Gennalynb123/flask_portfolio/projects/2) |[Commits](https://github.com/Gennalynb123/flask_portfolio/commits?author=lucasho22)
 | Gennalyn Bongolan | [@Gennalynb123](https://github.com/Gennalynb123) | [Tasks](https://github.com/Gennalynb123/flask_portfolio/projects/2#card-68554609) |[Scrum Board](https://github.com/Gennalynb123/flask_portfolio/projects/2) |[Commits](https://github.com/Gennalynb123/flask_portfolio/commits?author=Gennalynb123)
-| Ali Gull | [@sayed123455](https://github.com/sayed123455) | [Tasks](https://github.com/Gennalynb123/flask_portfolio/projects/2#card-68559348) |[Scrum Board](https://github.com/Gennalynb123/flask_portfolio/projects/2) |[Commits](https://github.com/Gennalynb123/flask_portfolio/commits?author=sayed123455)
+| Ali Gull | [@sayed123455](https://github.com/sayed123455) | [Tasks](https://github.com/Gennalynb123/flask_portfolio/projects/2#card-68559348) |[Scrum Board](https://github.com/Gennalynb123/flask_portfolio/projects/2) |[Commits]()
 ## Pair Share Journals
 ### [Lucas, Ŕithwikh, and Gennalyn's Journal](https://docs.google.com/document/d/1XcHNurxEvFBZuBIZhxlTkx_ClMmk2kVWZFs-sb4uy2E/edit)
 ### [Jun and Ali's Journal](https://docs.google.com/document/d/1WvZphnC7vT6UqtVZ2HngxIULrPpT7rWK3-EGbG_K3Po/edit)
@@ -85,6 +85,7 @@ Each name has a link to their mini-lab page for greet integration.
 ### Frontside Ideas
 #### Our homepage will be a directory that helps guide our audience to different personality tests.
 #### Tests will ask the audience a series of questions, and will determine traits specific to the audience based on the answers chosen.
-#### Our Webpage will have a top facing navigation bar with links to a homepage
+#### Our Webpage will have a top facing navigation bar with links to a homepage.
+#### Our Website will also include a section reviewing different types and brands of juice.
 
 
