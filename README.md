@@ -18,7 +18,7 @@
 | Ali Gull | [@sayed123455](https://github.com/sayed123455) | [Tasks](https://github.com/Gennalynb123/flask_portfolio/projects/2#card-68559348) |[Scrum Board](https://github.com/Gennalynb123/flask_portfolio/projects/2) |[Commits]()
 ## Pair Share Journals
 ### [Lucas, Ŕithwikh, and Gennalyn's Journal](https://docs.google.com/document/d/1XcHNurxEvFBZuBIZhxlTkx_ClMmk2kVWZFs-sb4uy2E/edit)
-### [Jun and Ali's Journal]()
+### [Jun and Ali's Journal](https://docs.google.com/document/d/1WvZphnC7vT6UqtVZ2HngxIULrPpT7rWK3-EGbG_K3Po/edit)
 ## Project Ideation
 ### Our Idea: A website that gives the user a personality test and recommends music based on their given personality type
 #### Our Audience can learn about their personality type based on their answers on the test.
