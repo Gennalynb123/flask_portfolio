@@ -61,7 +61,28 @@ def Jun():
 def Lucas():
     return render_template("Lucas.html")
 
+@app.route('/Binary/')
+def Binary():
+    return render_template("Binary.html")
+
+@app.route('/Results/')
+def Results():
+    return render_template("Results.html")
+
+@app.route('/Test/')
+def Test():
+    return render_template("Test.html")
 
 # runs the application on the development server
 if __name__ == "__main__":
     app.run(debug=True)
+
+@app.route('/BINARY', methods=['GET', 'POST'])
+def BINARY():
+    # submit button has been pushed
+    if request.form:
+        name = request.form.get("name")
+        if len(name) != 0:  # input field has content
+            return render_template("Binary.html", name=name)
+    # starting and empty input default
+    return render_template("Binary.html", name="World")
