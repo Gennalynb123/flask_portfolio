@@ -1,21 +1,21 @@
 <!-- Extending the predefined project layout -->
 {% extends "layouts/base.html" %}
 
-{% set overview = "https://docs.google.com/document/d/1WvZphnC7vT6UqtVZ2HngxIULrPpT7rWK3-EGbG_K3Po/edit?usp=sharing" %}
-{% set scrumboard = "https://github.com/Gennalynb123/flask_portfolio" %}
-{% set repo = "https://github.com/Gennalynb123/flask_portfolio" %}
-
 <!- This variable sets name of browser tab  -->
 {% set project = "Stubby" %}
 
-<!- Juns commit - This is a replacement block for Body in base.html -->
+<!- This is a replacement block for Body in base.html -->
 {% block body %}
     <!- Try building a new body here ->
-    <div class="col-12">
-        <h1 style="font-size:96px;">Jun's Team</h1>
-    </div>
 
+    <head>
+      <title>HTML Background Color</title>
+    </head>
+    <body style="background-color:lightskyblue;">
 
+    </body>
+
+    <p>Kinish</p>
 
     <div class="center-block" style="margin: 2% 5% 5%; text-align:left; font-family: gilroy,serif;">
 
@@ -24,29 +24,19 @@
         </div>
 
         <div class="col-12">
-            <form action="/greet" id="greet" method="POST" >
+            <form action="/JUN" id="JUN" method="POST" >
                 <label for="name">Type a greeting name?</label>
                 <input name="name" id="name">
                 <input type="submit" value="Greetings!">
             </form>
         </div>
+
+
+
     </div>
 
-    <div class="row" style="padding-left: 10%;">
-        {% block links %}
-            <div class="col-3">
-                <a href="{{ overview }}" class="btn">Overview</a>
-            </div>
+{% endblock %}
 
-            <div class="col-3">
-                <a href="{{ repo }}" class="btn">Repository</a>
-            </div>
-
-            <div class="col-3">
-                <a href="{{ scrumboard }}" class="btn">Scrum Board</a>
-            </div>
-
-        {% endblock %}
-    </div>
-
+<!- This is turning off birds background from base.html -->
+{% block background %}
 {% endblock %}
