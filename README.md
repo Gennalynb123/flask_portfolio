@@ -42,5 +42,13 @@
 #### Tests will ask the audience a series of questions, and will determine traits specific to the audience based on the answers chosen.
 #### Our Webpage will have a top facing navigation bar with links to a homepage.
 #### Our Website will also include a section reviewing different types and brands of juice.
+## Contributors
+| Name | Tasks |
+|:-----|:-----:|
+| Jun Lim | [@the1jun](https://github.com/the1jun) [@peacekeeper6](https://github.com/peacekeeper6)| [Tasks](https://github.com/Gennalynb123/flask_portfolio/projects/2#card-68554960) |[Commits 2](https://github.com/Gennalynb123/flask_portfolio/commits?author=peacekeeper6)
+| Ŕithwikh Várma| [@guapbeast](https://github.com/guapbeast) | [Tasks](https://github.com/Gennalynb123/flask_portfolio/projects/2#card-68554850) 
+| Lucas Ho | [@lucasho22](https://github.com/lucasho22) | [Tasks](https://github.com/Gennalynb123/flask_portfolio/projects/2#card-68559291) 
+| Gennalyn Bongolan | [@Gennalynb123](https://github.com/Gennalynb123) | [Tasks](https://github.com/Gennalynb123/flask_portfolio/projects/2#card-68554609) 
+| Ali Gull | [@sayed123455](https://github.com/sayed123455) | [Tasks](https://github.com/Gennalynb123/flask_portfolio/projects/2#card-68559348) 
 
 
