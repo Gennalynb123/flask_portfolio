@@ -45,7 +45,7 @@
 ## Contributors
 | Name | Tasks |
 |:-----|:-----:|
-| Jun Lim | [Commits 2](https://github.com/Gennalynb123/flask_portfolio/commits?author=peacekeeper6)
+| Jun Lim | [Tasks](https://github.com/Gennalynb123/flask_portfolio/commits?author=peacekeeper6)
 | Ŕithwikh Várma|  [Tasks](https://github.com/Gennalynb123/flask_portfolio/projects/2#card-68554850) 
 | Lucas Ho |  [Tasks](https://github.com/Gennalynb123/flask_portfolio/projects/2#card-68559291) 
 | Gennalyn Bongolan |  [Tasks](https://github.com/Gennalynb123/flask_portfolio/projects/2#card-68554609) 
