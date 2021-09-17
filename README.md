@@ -46,7 +46,7 @@
 |:-----|:-----:|
 | Jun Lim | [Tasks](https://github.com/Gennalynb123/flask_portfolio/commits?author=peacekeeper6)
 | Ŕithwikh Várma|  [Tasks](https://github.com/Gennalynb123/flask_portfolio/projects/2#card-68554850) 
-| Lucas Ho |  [Tasks](https://github.com/Gennalynb123/flask_portfolio/projects/2#card-68559291) 
+| Lucas Ho |  [Tasks](https://docs.google.com/document/d/1utjPMkHbBQlmCValyz42FP6JqWpWs8Re4qeeHBKgTGY/edit) 
 | Gennalyn Bongolan |  [Tasks](https://github.com/Gennalynb123/flask_portfolio/projects/2#card-68554609) 
 | Ali Gull |  [Tasks](https://github.com/Gennalynb123/flask_portfolio/projects/2#card-68559348) 
 
