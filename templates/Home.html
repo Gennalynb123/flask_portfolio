@@ -1,10 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
+{% extends "layouts/base.html" %}
+
+{% block body %}
+<!- Try building a new body here ->
+
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <title>HTML Background Color</title>
 </head>
-<body>
+<body style="background-color:lightpink;">
 
 </body>
-</html>
+
+<p>future home page</p>
+
+
+
+{% endblock %}
+
+<!- This is turning off birds background from base.html -->
+{% block background %}
+{% endblock %}
