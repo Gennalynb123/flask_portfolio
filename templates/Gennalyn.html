@@ -8,6 +8,13 @@
 {% block body %}
 <!- Try building a new body here ->
 
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+
 <head>
     <title>HTML Background Color</title>
 </head>
@@ -20,7 +27,7 @@
 <div class="center-block" style="margin: 2% 5% 5%; text-align:left; font-family: gilroy,serif;">
 
 
-
+<center>
     <div class="col-12">
         <p>Hello, {{name}}!</p>
     </div>
@@ -32,12 +39,40 @@
             <input type="submit" value="Greetings!">
         </form>
     </div>
+</center>
 
 
+<div class = "w3-panel w3-border-top w3-border-bottom w3-border-black">
+    <center>
 
+        <div class="w3-panel w3-white">
+            <h1 class="w3-text-purple" style="text-shadow:1px 1px 0 #444">
+                <b>Gennalyn Bongolan</b></h1>
+        </div>
+
+        <p class="w3-monospace">I am a junior at Del Norte High School. I am the youngest in my family, and I have one older sister in college.
+        I enjoy drawing, playing video games, and being together with my family. My favorite season is Winter, and
+        my favorite holiday is Christmas. I look forward to learning more about computer science until I am able
+        to code efficiently and confidently.</p>
+        </center>
 </div>
 
-{% endblock %}
+
+
+    <div class="w3-container w3-white">
+
+        <center>
+        <a href="https://drive.google.com/uc?export=view&id=1AQEiTqC9InXkrQAfVUNtWCsoTBqJrHbQ">
+            <img src="https://drive.google.com/uc?export=view&id=1AQEiTqC9InXkrQAfVUNtWCsoTBqJrHbQ" style="width:500px;height:600px;">
+        </a>
+        </center>
+    </div>
+
+
+
+    </html>
+
+    {% endblock %}
 
 <!- This is turning off birds background from base.html -->
 {% block background %}
