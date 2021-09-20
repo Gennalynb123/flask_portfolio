@@ -128,15 +128,7 @@ def myFunction():
     # starting and empty input default
     return render_template("Bimary.html", name="text1")
 
-@app.route('/RGB', methods=['GET', 'POST'])
-def RGB():
-    # submit button has been pushed
-    if request.form:
-        name = request.form.get("name")
-        if len(name) != 0:  # input field has content
-            return render_template("rgb.html", name=name)
-    # starting and empty input default
-    return render_template("rgb.html", name="World")
+
 
 
 
