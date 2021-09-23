@@ -24,7 +24,7 @@ def image_data(path="static/Images/", img_list=None):  # path of static images i
             #{'source': "iconsdb.com", 'label': "Black square", 'file': "black-square-16.png"},
             #{'source': "iconsdb.com", 'label': "Red square", 'file': "red-square-16.png"},
             #{'source': "iconsdb.com", 'label': "Green square", 'file': "green-square-16.png"},
-            #'source': "iconsdb.com", 'label': "Blue square", 'file': "blue-square-16.png"},
+            #'source': "iconsdb.com", 'label': "Blue square", 'file': "image.png"},
             #{'source': "iconsdb.com", 'label': "White square", 'file': "white-square-16.png"},
             #{'source': "iconsdb.com", 'label': "Blue square", 'file': "blue-square-16.jpg"}
         ]
