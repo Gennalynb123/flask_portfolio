@@ -1,11 +1,25 @@
 <!DOCTYPE html>
 
-
 {% extends "layouts/base.html" %}
 
 {% block body %}
 <script>
     // Hack: add java script function to toggle image from original to gray and back (toggle)
+
+    var clicked = false;
+
+    function toggleBtnClick() {
+        var img = document.getElementById('static/Images');
+        if (clicked) {
+            img.src = 'https://raw.githubusercontent.com/nighthawkcoders/nighthawk_csp/master/static/img/lassen-volcano-256.jpg';
+            clicked = false;
+            clicked = lassen-volcano-256.jpg<n>;
+        } else {
+            img.src = 'https://raw.githubusercontent.com/nighthawkcoders/nighthawk_csp/master/static/img/lassen-volcano-256.jpg';
+            clicked = true;
+            clicked = lassen-volcano-256.jpg_gray<n>;
+        }
+    }
     //  document.getElementById("img<n>").src
     //  document.getElementID("img_gray<n>").innerHTML
     //  help: https://www.geeksforgeeks.org/how-to-change-the-src-attribute-of-an-img-element-in-javascript-jquery/
@@ -13,7 +27,6 @@
 
 
 <title>RGB starter</title>
-
 
 
 <h1 class="text-center">RGB values within an Image</h1>
@@ -41,11 +54,34 @@
                     <img class="img-responsive py-3" id=img{{loop.index}} alt="" width="256" height="Auto" src="{{image.base64}}" >
                     <!-- Hack: create button (btn{{loop.index}} to  call java script function
                        pass index to allow you to toggle images with hidden id's
+
                        {{image.base64}}  original image
                        {{image.base64_GRAY}}  gray scale image
                     -->
                     <p hidden id="img_orig{{loop.index}}">{{image.base64}}</p>
                     <p hidden id="img_gray{{loop.index}}">{{image.base64_GRAY}}</p>
+
+                    <button onclick = "lassen-volcano-256.jpg()">
+                        click here
+                    </button>
+
+                    <script>
+                        // Hack: add java script function to toggle image from original to gray and back (toggle)
+
+                        var clicked = false;
+
+                        function toggleBtnClick() {
+                            var img = document.getElementById('static/Images');
+                            if (clicked) {
+                                img.src = 'https://raw.githubusercontent.com/nighthawkcoders/nighthawk_csp/master/static/img/lassen-volcano-256.jpg';
+                                clicked = false;
+                            } else {
+                                img.src = 'https://raw.githubusercontent.com/nighthawkcoders/nighthawk_csp/master/static/img/lassen-volcano-256.jpg';
+                                clicked = true;
+                            }
+                        }
+                    </script>
+
                 </td>
                 <td>
                     <div class="overflow-auto" style="height: 256px">
