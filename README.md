@@ -19,12 +19,12 @@
 ## Pair Share Journals
 ### [Lucas, Ŕithwikh, and Gennalyn's Journal](https://docs.google.com/document/d/1XcHNurxEvFBZuBIZhxlTkx_ClMmk2kVWZFs-sb4uy2E/edit)
 ### [Jun and Ali's Journal](https://docs.google.com/document/d/1WvZphnC7vT6UqtVZ2HngxIULrPpT7rWK3-EGbG_K3Po/edit)
-# PBL 3-4 Week 3
+# Sprint 5,6 Week 5
 ## Links to issues for this week
-### - [Individual Research](https://github.com/AD1616/flask_portfolio/issues/13)
-### - [Individual Coding. Includes home pages](https://github.com/AD1616/flask_portfolio/issues/12)
-### - [Shows location for Mini-labs/Concepts, Brain Write, Wireframes, Greet, and TPT3](https://github.com/AD1616/flask_portfolio/issues/11)
-### - [Shows the prototype of our layout, with our own style](https://github.com/AD1616/flask_portfolio/issues/10)
+### - [TPT Activities (TPT brainstorm, 3.1/3.2 work/notes,journals](https://github.com/Gennalynb123/flask_portfolio/issues/17)
+### - [RGB mini-lab (set up only)](https://github.com/Gennalynb123/flask_portfolio/issues/18)
+### 
+
 #### We still want to have our layout more personalized, along with our individual home pages, but we are satisfied with our progress for this week. A lot of our time was spent on learning how to get images into our projects and create backgrounds. Overall, we created a Mini-Labs/concepts dropdown that includes Brain Write, Wireframes, Greet, TPT3, and our individual home pages. We will likely move our home pages to a different section once they are developed more. We successfully came up with a theme and integrated it into our about page.
 
 ## Project Ideation
