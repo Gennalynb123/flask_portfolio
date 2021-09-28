@@ -39,7 +39,7 @@
 ### [Sprints 1 & 2](https://github.com/Gennalynb123/flask_portfolio/projects/2)
 ## [Sprint 3 and 4 - Prototyping]
 ### [Sprints 3 & 4](https://github.com/Gennalynb123/flask_portfolio/projects/2)
-###  [video](https://drive.google.com/file/d/1kl5jFIyRJC3_xG10DX86GP8bgeFx_Ryx/view?usp=sharing)
+###  [Video](https://drive.google.com/file/d/1kl5jFIyRJC3_xG10DX86GP8bgeFx_Ryx/view?usp=sharing)
 ## [Sprint 5 and 6]
 ### [Sprints 5 & 6](https://github.com/Gennalynb123/flask_portfolio/projects/2)
 ###  [TPT Activities (TPT brainstorm, 3.1/3.2 work/notes,journals](https://github.com/Gennalynb123/flask_portfolio/issues/17)
