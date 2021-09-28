@@ -23,7 +23,7 @@
 ## Links to issues for this week
 ### - [TPT Activities (TPT brainstorm, 3.1/3.2 work/notes,journals](https://github.com/Gennalynb123/flask_portfolio/issues/17)
 ### - [RGB mini-lab (set up only)](https://github.com/Gennalynb123/flask_portfolio/issues/18)
-### 
+### - [RGB mini-lab](https://github.com/Gennalynb123/flask_portfolio/issues/20)
 
 #### We still want to have our layout more personalized, along with our individual home pages, but we are satisfied with our progress for this week. A lot of our time was spent on learning how to get images into our projects and create backgrounds. Overall, we created a Mini-Labs/concepts dropdown that includes Brain Write, Wireframes, Greet, TPT3, and our individual home pages. We will likely move our home pages to a different section once they are developed more. We successfully came up with a theme and integrated it into our about page.
 
