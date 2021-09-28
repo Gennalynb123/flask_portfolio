@@ -59,7 +59,7 @@ def Home():
 
 @app.route('/rgb/')
 def rgb():
-    return render_template('rgb.html', images=image_data())
+    return render_template("rgb.html", images=image_data())
 
 
 
