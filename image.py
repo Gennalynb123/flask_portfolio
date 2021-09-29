@@ -6,6 +6,7 @@ from io import BytesIO
 
 
 
+
 # image (PNG, JPG) to base64 conversion (string), learn about base64 on wikipedia https://en.wikipedia.org/wiki/Base64
 def image_base64(img, img_type):
     with BytesIO() as buffer:
@@ -25,7 +26,7 @@ def image_data(path="static/Images/", img_list=None):  # path of static images i
             {'source': "Peter Carolin", 'label': "Lassen Volcano", 'file': "lassen-volcano-256.jpg"},
             #{'source': "iconsdb.com", 'label': "Black square", 'file': "black-square-16.png"},
             {'source': "iconsdb.com", 'label': "Red square", 'file': "red-square-16.png"},
-            #{'source': "iconsdb.com", 'label': "Green square", 'file': "green-square-16.png"},
+            {'source': "iconsdb.com", 'label': "Green square", 'file': "green-square-16.png"},
             #{'source': "iconsdb.com", 'label': "Blue square", 'file': "blue-square-16.png"},
             {'source': "iconsdb.com", 'label': "White square", 'file': "white-square-16.png"},
             #{'source': "iconsdb.com", 'label': "Blue square", 'file': "blue-square-16.jpg"}
