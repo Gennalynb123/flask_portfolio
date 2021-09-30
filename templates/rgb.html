@@ -4,22 +4,27 @@
 
 {% block body %}
 <script>
+
+function setImg(ndx) {
     // Hack: add java script function to toggle image from original to gray and back (toggle)
 
-    var clicked = false;
-
-    function toggleBtnClick() {
-        var img = document.getElementById('static/Images');
-        if (clicked) {
-            img.src = 'https://github.com/Gennalynb123/flask_portfolio/blob/main/static/Images/lassen-volcano-256.jpg';
-            clicked = false;
-            clicked = lassen-volcano-256.jpg<n>;
-        } else {
-            img.src = 'https://github.com/Gennalynb123/flask_portfolio/blob/main/static/Images/lassen-volcano-256.jpg';
-            clicked = true;
-            clicked = lassen-volcano-256.jpg_gray<n>;
-        }
+    if (document.getElementById("btn"+ndx).value == "Gray Scale") {
+        document.getElementById("img"+ndx).src = document.getElementById("img_gray"+ndx).innerHTML;
+        document.getElementById("btn"+ndx).value = "Original";
     }
+    else
+    {
+        document.getElementById("img"+ndx).src = document.getElementById("img_orig"+ndx).innerHTML;
+        document.getElementById("btn"+ndx).value = "Gray Scale";
+    }
+
+    function greyscale() {
+
+        document.getElementById("img1").src = document.getElementById("img_gray1").innerHTML;
+
+    }
+
+}
     //  document.getElementById("img<n>").src
     //  document.getElementID("img_gray<n>").innerHTML
     //  help: https://www.geeksforgeeks.org/how-to-change-the-src-attribute-of-an-img-element-in-javascript-jquery/
@@ -51,6 +56,7 @@
                     <div>{{image.source}}</div>
                 </td>
                 <td>
+
                     <img class="img-responsive py-3" id=img{{loop.index}} alt="" width="256" height="Auto" src="{{image.base64}}" >
                     <!-- Hack: create button (btn{{loop.index}} to  call java script function
                        pass index to allow you to toggle images with hidden id's
@@ -61,24 +67,10 @@
                     <p hidden id="img_orig{{loop.index}}">{{image.base64}}</p>
                     <p hidden id="img_gray{{loop.index}}">{{image.base64_GRAY}}</p>
 
-
-                    <button onclick = "grayscale-volcano.png">
-                        Grayscale
-                    </button>
-
-                    <button onclick = "red-square-16.png()">
-                        yuh
-                    </button>
+                    <input type="button" value="Gray Scale" id=btn{{loop.index}} onclick="setImg('{{loop.index}}')"
 
 
 
-                    <script>
-                        // Hack: add java script function to toggle image from original to gray and back (toggle)
-
-
-
-
-                    </script>
 
                 </td>
                 <td>

@@ -1,4 +1,4 @@
-# AP CSP Period 3: Jun's Team
+# AP Computer Science Principles Period 3: Jun's Team
 ## [Scrum Board](https://github.com/Gennalynb123/flask_portfolio/projects/2)
 ## [Insights with Contributors and Commits](https://github.com/Gennalynb123/flask_portfolio/commits/main)
 ## Table of Contents
@@ -8,6 +8,9 @@
 4. [Sprint 0 - Introduction](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md#sprint-0---introduction)
 5. [Sprints 1,2 - Innovation](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md#sprint-1-and-2---innovation)
 6. [Sprints 3,4 - Prototyping](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md#sprint-3-and-4)
+7. [Sprints 5,6 - Time Boxing](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md#sprint-5-and-6)
+
+
 ## Contributors
 | Name | GitHub ID and Profile | Tasks | Scrum Board | Commits |
 |:-----|:----------------------|:-----:|:-----------:|:-------:|
@@ -15,7 +18,7 @@
 | Ŕithwikh Várma| [@guapbeast](https://github.com/guapbeast) | [Tasks](https://github.com/Gennalynb123/flask_portfolio/projects/2#card-68554850) |[Scrum Board](https://github.com/Gennalynb123/flask_portfolio/projects/2) | [Commits](https://github.com/Gennalynb123/flask_portfolio/commits?author=guapbeast)
 | Lucas Ho | [@lucasho22](https://github.com/lucasho22) | [Tasks](https://github.com/Gennalynb123/flask_portfolio/projects/2#card-68559291) |[Scrum Board](https://github.com/Gennalynb123/flask_portfolio/projects/2) |[Commits](https://github.com/Gennalynb123/flask_portfolio/commits?author=lucasho22)
 | Gennalyn Bongolan | [@Gennalynb123](https://github.com/Gennalynb123) | [Tasks](https://github.com/Gennalynb123/flask_portfolio/projects/2#card-68554609) |[Scrum Board](https://github.com/Gennalynb123/flask_portfolio/projects/2) |[Commits](https://github.com/Gennalynb123/flask_portfolio/commits?author=Gennalynb123)
-| Ali Gull | [@sayed123455](https://github.com/sayed123455) | [Tasks](https://github.com/Gennalynb123/flask_portfolio/projects/2#card-68559348) |[Scrum Board](https://github.com/Gennalynb123/flask_portfolio/projects/2) |[Commits]()
+| Ali Gull | [@sayed123455](https://github.com/sayed123455) | [Tasks](https://github.com/Gennalynb123/flask_portfolio/projects/2#card-68559348) |[Scrum Board](https://github.com/Gennalynb123/flask_portfolio/projects/2) |[Commits](https://github.com/Gennalynb123/flask_portfolio/commits?author=sayed123455)
 ## Pair Share Journals
 ### [Lucas, Ŕithwikh, and Gennalyn's Journal](https://docs.google.com/document/d/1XcHNurxEvFBZuBIZhxlTkx_ClMmk2kVWZFs-sb4uy2E/edit)
 ### [Jun and Ali's Journal](https://docs.google.com/document/d/1WvZphnC7vT6UqtVZ2HngxIULrPpT7rWK3-EGbG_K3Po/edit)
@@ -38,7 +41,7 @@
 ## [Sprint 1 and 2 - Innovation]
 ### [Sprints 1 & 2](https://github.com/Gennalynb123/flask_portfolio/projects/2)
 ## [Sprint 3 and 4 - Prototyping]
-### [Sprints 3 & 4](https://github.com/Gennalynb123/flask_portfolio/projects/2)
+### [Sprints 3 & 4 - Timeboxing](https://github.com/Gennalynb123/flask_portfolio/projects/2)
 ###  [Video](https://drive.google.com/file/d/1kl5jFIyRJC3_xG10DX86GP8bgeFx_Ryx/view?usp=sharing)
 ## [Sprint 5 and 6]
 ### [Sprints 5 & 6](https://github.com/Gennalynb123/flask_portfolio/projects/2)
