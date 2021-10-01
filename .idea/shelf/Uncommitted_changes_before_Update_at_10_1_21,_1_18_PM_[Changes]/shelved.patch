@@ -1,0 +1,201 @@
+Index: main.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># import \"packages\" from flask\nfrom flask import Flask, request, render_template\nfrom image import image_data\n\n# create a Flask instance\napp = Flask(__name__)\n\n\n# connects default URL to render index.html\n@app.route('/')\ndef index():\n    return render_template(\"index.html\")\n\n\n@app.route('/Test/')\ndef Test():\n    return render_template(\"Test.html\")\n\n\n@app.route('/Results/')\ndef Results():\n    return render_template(\"Results.html\")\n\n\n\n@app.route('/Gennalyn/')\ndef Gennalyn():\n    return render_template(\"Gennalyn.html\")\n\n\n@app.route('/Rithwikh/')\ndef Rithwikh():\n    return render_template(\"Rithwikh.html\")\n\n\n@app.route('/Jun/')\ndef Jun():\n    return render_template(\"Jun.html\")\n\n\n@app.route('/Lucas/')\ndef Lucas():\n    return render_template(\"Lucas.html\")\n\n\n@app.route('/Ali/')\ndef Ali():\n    return render_template(\"Ali.html\")\n\n\n@app.route('/Bimary/')\ndef Bimary():\n    return render_template(\"Bimary.html\")\n\n\n@app.route('/Home/')\ndef Home():\n    return render_template(\"Home.html\")\n\n@app.route('/rgb/')\ndef rgb():\n    return render_template(\"rgb.html\", images=image_data())\n\n\n\n\n@app.route('/GENNALYN', methods=['GET', 'POST'])\ndef GENNALYN():\n    # submit button has been pushed\n    if request.form:\n        name = request.form.get(\"name\")\n        if len(name) != 0:  # input field has content\n            return render_template(\"Gennalyn.html\", name=name)\n    # starting and empty input default\n    return render_template(\"Gennalyn.html\", name=\"World\")\n\n\n@app.route('/JUN', methods=['GET', 'POST'])\ndef JUN():\n    # submit button has been pushed\n    if request.form:\n        name = request.form.get(\"name\")\n        if len(name) != 0:  # input field has content\n            return render_template(\"Jun.html\", name=name)\n    # starting and empty input default\n    return render_template(\"Jun.html\", name=\"World\")\n\n\n@app.route('/LUCAS', methods=['GET', 'POST'])\ndef LUCAS():\n    # submit button has been pushed\n    if request.form:\n        name = request.form.get(\"name\")\n        if len(name) != 0:  # input field has content\n            return render_template(\"Lucas.html\", name=name)\n    # starting and empty input default\n    return render_template(\"Lucas.html\", name=\"World\")\n\n\n@app.route('/RITHWIKH', methods=['GET', 'POST'])\ndef RITHWIKH():\n    # submit button has been pushed\n    if request.form:\n        name = request.form.get(\"name\")\n        if len(name) != 0:  # input field has content\n            return render_template(\"Rithwikh.html\", name=name)\n    # starting and empty input default\n    return render_template(\"Rithwikh.html\", name=\"World\")\n\n\n@app.route('/ALI', methods=['GET', 'POST'])\ndef ALI():\n    # submit button has been pushed\n    if request.form:\n        name = request.form.get(\"name\")\n        if len(name) != 0:  # input field has content\n            return render_template(\"Ali.html\", name=name)\n    # starting and empty input default\n    return render_template(\"Ali.html\", name=\"World\")\n\n\n@app.route('/myFunction()', methods=['GET', 'POST'])\ndef myFunction():\n    # submit button has been pushed\n    if request.form:\n        name = request.form.get(\"text\")\n        if len(name) != 0:  # input field has content\n            return render_template(\"Bimary.html\", name=text1)\n    # starting and empty input default\n    return render_template(\"Bimary.html\", name=\"text1\")\n\n\n\n\n\n\n\n# runs the application on the development server\nif __name__ == \"__main__\":\n    app.run(debug=True)\n\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/main.py b/main.py
+--- a/main.py	(revision 20f10483c20ebc08c6d7c9d03ef6ebf102218ecb)
++++ b/main.py	(date 1632942832159)
+@@ -1,6 +1,6 @@
+ # import "packages" from flask
+ from flask import Flask, request, render_template
+-from image import image_data
++import image
+ 
+ # create a Flask instance
+ app = Flask(__name__)
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_9_20_21__12_55_PM__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_9_20_21__12_55_PM__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Update_at_9_20_21__12_55_PM__Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_9_20_21__12_55_PM__Changes_.xml	(revision 20f10483c20ebc08c6d7c9d03ef6ebf102218ecb)
++++ /dev/null	(revision 20f10483c20ebc08c6d7c9d03ef6ebf102218ecb)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Update_at_9_20_21,_12_55_PM_[Changes]" date="1632167713930" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_9_20_21,_12_55_PM_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Update at 9/20/21, 12:55 PM [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_9_17_2021_8_32_PM_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_9_17_2021_8_32_PM_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_9_17_2021_8_32_PM_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_9_17_2021_8_32_PM_[Changes]/shelved.patch	(revision 20f10483c20ebc08c6d7c9d03ef6ebf102218ecb)
++++ /dev/null	(revision 20f10483c20ebc08c6d7c9d03ef6ebf102218ecb)
+@@ -1,18 +0,0 @@
+-Index: templates/Binary.html
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><!DOCTYPE html>\r\n\r\n{% extends \"layouts/base.html\" %}\r\n\r\n{% block background %}\r\n{% endblock %}\r\n\r\n<!-- Search for all the Hack: below for hack-a-thon and mini-lab requirements -->\r\n<!-- need to adjust Templates to start -->\r\n\r\n<!-- Hack: Build form to drive bit size dynamic updates\r\n           use HTML Input Form in Frontend, ie toward top of Page\r\n           send initial value and updated values to form via Python render_template -->\r\n<!-- Hack: use 8 as default -->\r\n{% set BITS = 16 %}\r\n{% set MAX = ((2 ** BITS) - 1) %}\r\n\r\n<!-- Hack: Set bulbs and pass as variables via Python render_template\r\n           add new images (ie PNGs) to project -->\r\n<!-- use your PNGs as default -->\r\n{% set imgBulbOn = \"https://raw.githubusercontent.com/nighthawkcoders/nighthawk_csp/master/static/assets/bulb_on.gif\" %}\r\n{% set imgBulbOff = \"https://raw.githubusercontent.com/nighthawkcoders/nighthawk_csp/master/static/assets/bulb_off.png\" %}\r\n{% set msgTurnOn = \"Turn On\" %}\r\n{% set msgTurnOff = \"Turn Off\" %}\r\n\r\n\r\n{% block body %}\r\nte3h\r\n<title>Binary page</title>\r\n<script>\r\n    const BITS = '{{ BITS }}'; let max = '{{ MAX }}'; let MAX = parseInt(max, 10);\r\n    // return string with current value of each bit\r\n    function getBits() {\r\n        let bits = \"\";\r\n        for(let i = 0; i < BITS; i++) {\r\n            bits = bits + document.getElementById('digit' + i).value;\r\n        }\r\n        return bits;\r\n    }\r\n    // setter for DOM values\r\n    function setConversions(binary) {\r\n        document.getElementById('binary').innerHTML = binary;\r\n        // DOM assignment to Octal conversion\r\n        document.getElementById('octal').innerHTML = parseInt(binary, 2).toString(8);\r\n        // DOM assignment to Hexadecimal conversion\r\n        document.getElementById('hexadecimal').innerHTML = parseInt(binary, 2).toString(16);\r\n        // DOM assignment to Decimal conversion\r\n        document.getElementById('decimal').innerHTML = parseInt(binary, 2).toString(10);\r\n        document.getElementById('ASCII').innerHTML = parseInt(binary, 2).toString(10);\r\n        /* Hack: show ASCII printable character(s) for each 8 bits\r\n         DOM assignment by converting decimal https://www.w3schools.com/jsref/jsref_fromcharcode.asp\r\n         below ASCII for more ideas of where to make changes\r\n         */\r\n    }\r\n\r\n    // algorithm to convert decimal to base using division and remainder\r\n    function decimal_2_base(decimal, base) {\r\n        let conversion = \"\";\r\n        // loop to convert to base\r\n        do {\r\n            let digit = decimal % base;\r\n            conversion = \"\" + digit + conversion; // what does this do?\r\n            decimal = ~~(decimal / base);         // what does this do?  what is ~~?\r\n        } while (decimal > 0);                  // why while at the end?\r\n        // loop to pad with zeros\r\n        if (base === 2) {                        // only pad for binary conversions\r\n            for (let i = 0; conversion.length < BITS; i++) {\r\n                conversion = \"0\" + conversion;\r\n            }\r\n        }\r\n        return conversion;\r\n    }\r\n\r\n    // toggle selected bit and recalculate\r\n    function toggleBit(i) {\r\n        //alert(\"Digit action: \" + i );\r\n        const dig = document.getElementById('digit' + i);\r\n        const image = document.getElementById('bulb' + i);\r\n        const butt = document.getElementById('butt' + i);\r\n        // Change digit and visual\r\n        if (image.src.match(\"{{ imgBulbOn }}\")) {\r\n            dig.value = 0;\r\n            image.src = \"{{ imgBulbOff }}\";\r\n            butt.innerHTML = \"{{ msgTurnOn }}\";\r\n        } else {\r\n            dig.value = 1;\r\n            image.src = \"{{ imgBulbOn }}\";\r\n            butt.innerHTML = \"{{ msgTurnOff }}\";\r\n        }\r\n        // Binary numbers\r\n        const binary = getBits();\r\n        setConversions(binary);\r\n    }\r\n    // add is positive integer, subtract is negative integer\r\n    function add(n) {\r\n        let binary = getBits();\r\n        // convert to decimal and do math\r\n        let decimal = parseInt(binary, 2);\r\n        if (n > 0) {  // PLUS\r\n            decimal = MAX === decimal ? 0 : decimal += n; // OVERFLOW or PLUS\r\n        } else  {     // MINUS\r\n            decimal = 0 === decimal ? MAX : decimal += n; // OVERFLOW or MINUS\r\n        }\r\n        // convert the result back to binary\r\n        binary = decimal_2_base(decimal, 2);\r\n        // update conversions\r\n        setConversions(binary);\r\n        // update bits\r\n        for (let i = 0; i < binary.length; i++) {\r\n            let digit = binary.substr(i, 1);\r\n            document.getElementById('digit' + i).value = digit;\r\n            if (digit === \"1\") {\r\n                document.getElementById('bulb' + i).src = \"{{ imgBulbOn }}\";\r\n                document.getElementById('butt' + i).innerHTML = \"{{ msgTurnOff }}\";\r\n            } else {\r\n                document.getElementById('bulb' + i).src = \"{{ imgBulbOff }}\";\r\n                document.getElementById('butt' + i).innerHTML = \"{{ msgTurnOn }}\";\r\n            }\r\n        }\r\n    }\r\n</script>\r\n\r\n\r\n<h1 class=\"text-center\">comtpuer sience clas</h1>\r\n<div class=\"center-block\" style=\"margin: 2% 5% 5%; text-align:left; font-family: gilroy,serif;\">\r\n</div>\r\n\r\n<div class=\"container\">\r\n    <div class=\"row justify-content-md-center\">\r\n\r\n        <div class=\"col-8\">\r\n            <table class=\"table\">\r\n                <tr id=\"table\">\r\n                    <th>Plus</th>\r\n                    <th>Binary</th>\r\n                    <th>Octal</th>\r\n                    <th>Hexadecimal</th>\r\n                    <th>Decimal</th>\r\n                    <th>ASCII</th>\r\n                    <!-- Hack: display ASCII label for printable character(s)  -->\r\n                    <th>Minus</th>\r\n                </tr>\r\n                <tr>\r\n                    <td><button type=\"button\" id=\"add1\" onclick=\"add(1)\">+1</button></td>\r\n                    <td id=\"binary\">00000000</td>\r\n                    <td id=\"octal\">0</td>\r\n                    <td id=\"hexadecimal\">0</td>\r\n                    <td id=\"decimal\">0</td>\r\n                    <td id=\"ASCII\">00000000</td>\r\n                    <!-- Hack: display ASCII printable character(s)  -->\r\n                    <td><button type=\"button\" id=\"sub1\" onclick=\"add(-1)\">-1</button></td>\r\n\r\n\r\n\r\n                </tr>\r\n            </table>\r\n        </div>\r\n\r\n        <div class=\"col-12\">\r\n            <table class=\"table\">\r\n                <tr>\r\n                    {% for i in range(BITS) %}\r\n                    <td><img class=\"img-responsive py-3\" id=\"bulb{{i}}\" src=\"{{ imgBulbOff }}\" alt=\"\" width=\"40\" height=\"Auto\">\r\n                        <button type=\"button\" id=\"butt{{i}}\" onclick=\"toggleBit('{{i}}')\">{{ msgTurnOn }}</button>\r\n                    </td>\r\n                    {% endfor %}\r\n                </tr>\r\n                <tr>\r\n                    {% for i in range(BITS) %}\r\n                    <td><input type='text' id='digit{{i}}' Value=\"0\" size=\"1\" readonly></td>\r\n                    {% endfor %}\r\n                </tr>\r\n            </table>\r\n        </div>\r\n\r\n        <div class=\"text-center\">\r\n            <form action=\"/BINARY\" id=\"BINARY\" method=\"POST\" >\r\n                <label for=\"name\">rwvgoi</label>\r\n                <input name=\"name\" id=\"name\">\r\n                <input type=\"submit\" value=\"Put in number\">\r\n            </form>\r\n        </div>\r\n    </div>\r\n</div>\r\n{% endblock %}\r\n
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/templates/Binary.html b/templates/Binary.html
+---- a/templates/Binary.html	(revision 85308ee068ecb5029e8219242fb6886b7b2d2dfb)
+-+++ b/templates/Binary.html	(date 1631912528739)
+-@@ -25,7 +25,6 @@
+- 
+- 
+- {% block body %}
+--te3h
+- <title>Binary page</title>
+- <script>
+-     const BITS = '{{ BITS }}'; let max = '{{ MAX }}'; let MAX = parseInt(max, 10);
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_9_17_2021_8_32_PM__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_9_17_2021_8_32_PM__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Update_at_9_17_2021_8_32_PM__Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_9_17_2021_8_32_PM__Changes_.xml	(revision 20f10483c20ebc08c6d7c9d03ef6ebf102218ecb)
++++ /dev/null	(revision 20f10483c20ebc08c6d7c9d03ef6ebf102218ecb)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Update_at_9_17_2021_8_32_PM_[Changes]" date="1631935983610" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_9_17_2021_8_32_PM_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Update at 9/17/2021 8:32 PM [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_9_20_21,_12_55_PM_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_9_20_21,_12_55_PM_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_9_20_21,_12_55_PM_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_9_20_21,_12_55_PM_[Changes]/shelved.patch	(revision 20f10483c20ebc08c6d7c9d03ef6ebf102218ecb)
++++ /dev/null	(revision 20f10483c20ebc08c6d7c9d03ef6ebf102218ecb)
+@@ -1,28 +0,0 @@
+-Index: templates/Starter.py
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/templates/Starter.py b/templates/Starter.py
+-new file mode 100644
+---- /dev/null	(date 1632167696857)
+-+++ b/templates/Starter.py	(date 1632167696857)
+-@@ -0,0 +1,18 @@
+-+from flask import Blueprint, render_template
+-+from algorithm.image import image_data
+-+
+-+starter_bp = Blueprint('starter', __name__,
+-+                       url_prefix='/starter',
+-+                       template_folder='templates',
+-+                       static_folder='static',
+-+                       static_url_path='assets')
+-+
+-+
+-+@starter_bp.route('/binary/')
+-+def binary():
+-+    return render_template("starter/binary.html")
+-+
+-+
+-+@starter_bp.route('/rgb/')
+-+def rgb():
+-+    return render_template('starter/rgb.html', images=image_data())
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"ff502b37-8c90-4c7a-baf3-1a9ff1713bc7\" name=\"Changes\" comment=\"all the rgb stuff (main, nav)\">\n      <change afterPath=\"$PROJECT_DIR$/templates/Greet.html\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_9_13_2021_12_54_PM__Changes_.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_9_13_2021_12_54_PM__Changes_.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_9_14_2021_1_18_PM__Changes_.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_9_14_2021_1_18_PM__Changes_.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_9_14_2021_1_39_PM__Changes_.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_9_14_2021_1_39_PM__Changes_.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_9_17_2021_8_32_PM__Changes_.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_9_17_2021_8_32_PM__Changes_.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/templates/Binary.html\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/templates/Lucas.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/templates/Lucas.html\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/templates/layouts/navbar.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/templates/layouts/navbar.html\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"HTML File\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"GitSEFilterConfiguration\">\n    <file-type-list>\n      <filtered-out-file-type name=\"LOCAL_BRANCH\" />\n      <filtered-out-file-type name=\"REMOTE_BRANCH\" />\n      <filtered-out-file-type name=\"TAG\" />\n      <filtered-out-file-type name=\"COMMIT_BY_MESSAGE\" />\n    </file-type-list>\n  </component>\n  <component name=\"ProjectId\" id=\"1xxqFASixFLgg4b8mI2l0bquKBJ\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"DefaultHtmlFileTemplate\" value=\"HTML File\" />\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"node.js.detected.package.eslint\" value=\"true\" />\n    <property name=\"node.js.detected.package.tslint\" value=\"true\" />\n    <property name=\"node.js.selected.package.eslint\" value=\"(autodetect)\" />\n    <property name=\"node.js.selected.package.tslint\" value=\"(autodetect)\" />\n    <property name=\"project.structure.last.edited\" value=\"Project\" />\n    <property name=\"project.structure.proportion\" value=\"0.15\" />\n    <property name=\"project.structure.side.proportion\" value=\"0.2\" />\n    <property name=\"restartRequiresConfirmation\" value=\"false\" />\n    <property name=\"settings.editor.selected.configurable\" value=\"preferences.pluginManager\" />\n  </component>\n  <component name=\"RunManager\" selected=\"Python.main\">\n    <configuration name=\"main\" type=\"PythonConfigurationType\" factoryName=\"Python\" nameIsGenerated=\"true\">\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"C:\\Users\\lucas\\IdeaProjects\\flask_portfolio2\\venv\\Scripts\\python.exe\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <module name=\"\" />\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/main.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration default=\"true\" type=\"Python.FlaskServer\">\n      <module name=\"flask_portfolio5\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <option name=\"SDK_HOME\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"\" />\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\n      <option name=\"launchJavascriptDebuger\" value=\"false\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"flask_portfolio5\" type=\"Python.FlaskServer\">\n      <module name=\"flask_portfolio5\" />\n      <option name=\"target\" value=\"$PROJECT_DIR$/main.py\" />\n      <option name=\"targetType\" value=\"PATH\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <option name=\"SDK_HOME\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"\" />\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\n      <option name=\"launchJavascriptDebuger\" value=\"false\" />\n      <method v=\"2\" />\n    </configuration>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"94b43d23-1852-4b19-b930-245c73968742\" name=\"Changes\" comment=\"\" />\n      <created>1631306981129</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1631306981129</updated>\n      <workItem from=\"1631306982345\" duration=\"696000\" />\n      <workItem from=\"1631418133822\" duration=\"350000\" />\n      <workItem from=\"1631418498887\" duration=\"24000\" />\n      <workItem from=\"1631418538198\" duration=\"378000\" />\n      <workItem from=\"1631560243945\" duration=\"87000\" />\n      <workItem from=\"1631560386679\" duration=\"1117000\" />\n      <workItem from=\"1631561534192\" duration=\"1446000\" />\n      <workItem from=\"1631563163348\" duration=\"805000\" />\n      <workItem from=\"1631650703218\" duration=\"85000\" />\n      <workItem from=\"1631650810273\" duration=\"3282000\" />\n      <workItem from=\"1631732959373\" duration=\"3635000\" />\n      <workItem from=\"1631819377362\" duration=\"3773000\" />\n      <workItem from=\"1631911074692\" duration=\"865000\" />\n      <workItem from=\"1632164920904\" duration=\"2453000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"Junes commit\">\n      <created>1631307474720</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1631307474720</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"JUNs commit\">\n      <created>1631561478776</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1631561478776</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"moved button added background picture\">\n      <created>1631820324973</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1631820324973</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"moved button added background picture\">\n      <created>1631820775124</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1631820775124</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"rgb html\">\n      <created>1632167035077</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1632167035077</updated>\n    </task>\n    <task id=\"LOCAL-00006\" summary=\"all the rgb stuff (main, nav)\">\n      <created>1632167706979</created>\n      <option name=\"number\" value=\"00006\" />\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1632167706979</updated>\n    </task>\n    <task id=\"LOCAL-00007\" summary=\"all the rgb stuff (main, nav)\">\n      <created>1632167806363</created>\n      <option name=\"number\" value=\"00007\" />\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1632167806363</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"8\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"Junes commit\" />\n    <MESSAGE value=\"JUNs commit\" />\n    <MESSAGE value=\"moved button added background picture\" />\n    <MESSAGE value=\"rgb html\" />\n    <MESSAGE value=\"all the rgb stuff (main, nav)\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"all the rgb stuff (main, nav)\" />\n  </component>\n  <component name=\"com.intellij.coverage.CoverageDataManagerImpl\">\n    <SUITE FILE_PATH=\"coverage/flask_portfolio_3$flask_portfolio_3.coverage\" NAME=\"flask_portfolio.3 Coverage Results\" MODIFIED=\"1632168709692\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"\" />\n    <SUITE FILE_PATH=\"coverage/flask_portfolio5$main.coverage\" NAME=\"main Coverage Results\" MODIFIED=\"1632164945793\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$\" />\n    <SUITE FILE_PATH=\"coverage/flask_portfolio_3$main.coverage\" NAME=\"main Coverage Results\" MODIFIED=\"1632257563669\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 20f10483c20ebc08c6d7c9d03ef6ebf102218ecb)
++++ b/.idea/workspace.xml	(date 1633119444731)
+@@ -5,15 +5,12 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="ff502b37-8c90-4c7a-baf3-1a9ff1713bc7" name="Changes" comment="all the rgb stuff (main, nav)">
+-      <change afterPath="$PROJECT_DIR$/templates/Greet.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_9_13_2021_12_54_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_9_13_2021_12_54_PM__Changes_.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_9_14_2021_1_18_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_9_14_2021_1_18_PM__Changes_.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_9_14_2021_1_39_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_9_14_2021_1_39_PM__Changes_.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_9_17_2021_8_32_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_9_17_2021_8_32_PM__Changes_.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_9_17_2021_8_32_PM_[Changes]/shelved.patch" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_9_17_2021_8_32_PM__Changes_.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_9_20_21,_12_55_PM_[Changes]/shelved.patch" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_9_20_21__12_55_PM__Changes_.xml" beforeDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/templates/Binary.html" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/templates/Lucas.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Lucas.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/templates/layouts/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layouts/navbar.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -59,14 +56,14 @@
+     <property name="restartRequiresConfirmation" value="false" />
+     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+   </component>
+-  <component name="RunManager" selected="Python.main">
++  <component name="RunManager" selected="Flask server.flask_portfol">
+     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+       <option name="INTERPRETER_OPTIONS" value="" />
+       <option name="PARENT_ENVS" value="true" />
+       <envs>
+         <env name="PYTHONUNBUFFERED" value="1" />
+       </envs>
+-      <option name="SDK_HOME" value="C:\Users\lucas\IdeaProjects\flask_portfolio2\venv\Scripts\python.exe" />
++      <option name="SDK_HOME" value="$PROJECT_DIR$/../flask_portfolio/venv/bin/python" />
+       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+       <option name="IS_MODULE_SDK" value="false" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+@@ -95,6 +92,21 @@
+       <option name="launchJavascriptDebuger" value="false" />
+       <method v="2" />
+     </configuration>
++    <configuration name="flask_portfol" type="Python.FlaskServer">
++      <module name="flask_portfol" />
++      <option name="target" value="$PROJECT_DIR$/main.py" />
++      <option name="targetType" value="PATH" />
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="" />
++      <option name="IS_MODULE_SDK" value="false" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
++      <option name="launchJavascriptDebuger" value="false" />
++      <method v="2" />
++    </configuration>
+     <configuration name="flask_portfolio5" type="Python.FlaskServer">
+       <module name="flask_portfolio5" />
+       <option name="target" value="$PROJECT_DIR$/main.py" />
+@@ -114,7 +126,7 @@
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
+-      <changelist id="94b43d23-1852-4b19-b930-245c73968742" name="Changes" comment="" />
++      <changelist id="ff502b37-8c90-4c7a-baf3-1a9ff1713bc7" name="Changes" comment="all the rgb stuff (main, nav)" />
+       <created>1631306981129</created>
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+@@ -133,6 +145,7 @@
+       <workItem from="1631819377362" duration="3773000" />
+       <workItem from="1631911074692" duration="865000" />
+       <workItem from="1632164920904" duration="2453000" />
++      <workItem from="1632942820591" duration="409000" />
+     </task>
+     <task id="LOCAL-00001" summary="Junes commit">
+       <created>1631307474720</created>
+@@ -210,8 +223,9 @@
+     <option name="LAST_COMMIT_MESSAGE" value="all the rgb stuff (main, nav)" />
+   </component>
+   <component name="com.intellij.coverage.CoverageDataManagerImpl">
++    <SUITE FILE_PATH="coverage/flask_portfol$main.coverage" NAME="main Coverage Results" MODIFIED="1632426035089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
++    <SUITE FILE_PATH="coverage/flask_portfolio_3$main.coverage" NAME="main Coverage Results" MODIFIED="1632257563669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+     <SUITE FILE_PATH="coverage/flask_portfolio_3$flask_portfolio_3.coverage" NAME="flask_portfolio.3 Coverage Results" MODIFIED="1632168709692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+     <SUITE FILE_PATH="coverage/flask_portfolio5$main.coverage" NAME="main Coverage Results" MODIFIED="1632164945793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+-    <SUITE FILE_PATH="coverage/flask_portfolio_3$main.coverage" NAME="main Coverage Results" MODIFIED="1632257563669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+   </component>
+ </project>
+\ No newline at end of file
