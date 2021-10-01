@@ -25,9 +25,9 @@ def image_data(path="static/Images/", img_list=None):  # path of static images i
             {'source': "Peter Carolin", 'label': "Lassen Volcano", 'file': "lassen-volcano-256.jpg"},
             #{'source': "iconsdb.com", 'label': "Black square", 'file': "black-square-16.png"},
             {'source': "iconsdb.com", 'label': "Red square", 'file': "red-square-16.png"},
-            {'source': "iconsdb.com", 'label': "Green square", 'file': "green-square-16.png"},
-            #{'source': "iconsdb.com", 'label': "Blue square", 'file': "blue-square-16.png"},
-            {'source': "iconsdb.com", 'label': "White square", 'file': "white-square-16.png"},
+            #{'source': "iconsdb.com", 'label': "Green square", 'file': "green-square-16.png"},
+            #'source': "iconsdb.com", 'label': "Blue square", 'file': "image.png"},
+            #{'source': "iconsdb.com", 'label': "White square", 'file': "white-square-16.png"},
             #{'source': "iconsdb.com", 'label': "Blue square", 'file': "blue-square-16.jpg"}
         ]
     # gather analysis data and meta data for each image, adding attributes to each row in table
@@ -47,6 +47,8 @@ def image_data(path="static/Images/", img_list=None):  # path of static images i
         else:
             d1.text((0, 0), "Hi!")
         img_reference.save(file)
+
+
 
         img_data = img_reference.getdata()  # Reference https://www.geeksforgeeks.org/python-pil-image-getdata/
         img_dict['format'] = img_reference.format
