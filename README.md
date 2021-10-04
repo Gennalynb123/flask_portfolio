@@ -54,10 +54,10 @@
 ## Contributors
 | Name | Tasks |
 |:-----|:-----:|
-| Jun Lim | [Tasks](https://github.com/Gennalynb123/flask_portfolio/projects/2#card-68554850)
-| Ŕithwikh Várma|  [Tasks](https://github.com/Gennalynb123/flask_portfolio/projects/2#card-68554850) 
-| Lucas Ho |  [Tasks](https://github.com/Gennalynb123/flask_portfolio/projects/2#card-68554850) 
-| Gennalyn Bongolan|  [Tasks](https://github.com/Gennalynb123/flask_portfolio/projects/2#card-68554609) 
-| Ali Gull|  [Tasks](https://github.com/Gennalynb123/flask_portfolio/projects/2#card-68559348) 
+| Jun Lim | [Tangible](https://github.com/Gennalynb123/flask_portfolio/commit/78177d211b2b851ef60b6f1fd33f8e17bed4162a)
+| Ŕithwikh Várma|  [Tangible](https://docs.google.com/document/d/12TnHJVlcribNU6sX7OOA_Wx3OetbZDELks0SlvGp4rw/edit) 
+| Lucas Ho |  [Tangible](https://github.com/Gennalynb123/flask_portfolio/commit/96463bdaf7843b0b01688e6cd427b2bc334ba2d0) 
+| Gennalyn Bongolan|  [Tangible](https://github.com/Gennalynb123/flask_portfolio/commit/08c1dd4b5784d03ab2a312ee83e97ab6cb01164f) 
+| Ali Gull|  [Tangible](https://docs.google.com/document/d/1yM7xTlAMoBwxjcCVS7KfeJWDonRg233bafW-5xDGv_0/edit) 
 
 
