@@ -5,7 +5,6 @@ from io import BytesIO
 
 
 
-
 # image (PNG, JPG) to base64 conversion (string), learn about base64 on wikipedia https://en.wikipedia.org/wiki/Base64
 def image_base64(img, img_type):
     with BytesIO() as buffer:
@@ -49,6 +48,13 @@ def image_data(path="static/Images/", img_list=None):  # path of static images i
         img_reference.save(file)
 
 
+        rotated = img_reference.rotate(45)
+        if img_dict['file'] == "lassen-volcano-256.jpg":
+            rotated.show()
+        else:
+            img_dict['file'] == "white-square-16-png"
+            d1.text ((2,45), "yo this is a placeholder")
+        img_reference.save(file)
 
         img_data = img_reference.getdata()  # Reference https://www.geeksforgeeks.org/python-pil-image-getdata/
         img_dict['format'] = img_reference.format
