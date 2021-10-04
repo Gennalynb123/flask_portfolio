@@ -132,6 +132,8 @@ This HTML is setup as as a Jinja2 layout, coders use layouts for:
 
         <div class="row" style="padding-left: 10%;">
             {% block links %}
+
+
             <div class="col-3">
                 <a href="{{ overview }}" class="btn">Overview</a>
             </div>
@@ -139,6 +141,21 @@ This HTML is setup as as a Jinja2 layout, coders use layouts for:
             <div class="col-3">
                 <a href="{{ repo }}" class="btn">Repository</a>
             </div>
+
+            <p><center>
+            Hello There! Welcome to our homepage?
+        </center> </p>
+            <center>
+                <img src="https://c.tenor.com/DkJGKMfgR6wAAAAM/debby-ryan-pull-back-hair.gif" style="width:300px;height:300px;">
+                <img src="https://media4.giphy.com/media/SggILpMXO7Xt6/giphy.gif" style="width:300px;height:300px;">
+                <img src= "https://c.tenor.com/g01carZ_O74AAAAM/indian-man-rolls-eyes-funny-gorilla.gif">
+                <img src= "https://i.kym-cdn.com/photos/images/newsfeed/002/061/021/50e.gif">
+                <img src= "data:image/jpeg;base64,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">
+                <img src= "https://c.tenor.com/X_9_0aWSSOEAAAAC/noice-distort.gif">
+                <img src= "https://i.imgur.com/yrSzyjX.gif">
+                <img src= "https://thumbs.gfycat.com/ShadyFirsthandFlatfish-max-1mb.gif">
+                <p>Thank you for visiting! </p>
+
             {% endblock %}
         </div>
 
@@ -146,13 +163,19 @@ This HTML is setup as as a Jinja2 layout, coders use layouts for:
 </div>
 {% endblock %}
 
+
+
 </body>
 
 {% block background %}
 <head>
     <title>color</title>
+
 </head>
 <body style="background-color:#22add9;">
+
+
+
 
 </body>
 {% endblock %}
