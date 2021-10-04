@@ -4,8 +4,6 @@ import base64
 from io import BytesIO
 
 
-
-
 # image (PNG, JPG) to base64 conversion (string), learn about base64 on wikipedia https://en.wikipedia.org/wiki/Base64
 def image_base64(img, img_type):
     with BytesIO() as buffer:
@@ -25,9 +23,9 @@ def image_data(path="static/Images/", img_list=None):  # path of static images i
             {'source': "Peter Carolin", 'label': "Lassen Volcano", 'file': "lassen-volcano-256.jpg"},
             #{'source': "iconsdb.com", 'label': "Black square", 'file': "black-square-16.png"},
             {'source': "iconsdb.com", 'label': "Red square", 'file': "red-square-16.png"},
-            {'source': "iconsdb.com", 'label': "Green square", 'file': "green-square-16.png"},
-            #{'source': "iconsdb.com", 'label': "Blue square", 'file': "blue-square-16.png"},
-            {'source': "iconsdb.com", 'label': "White square", 'file': "white-square-16.png"},
+            #{'source': "iconsdb.com", 'label': "Green square", 'file': "green-square-16.png"},
+            {'source': "iconsdb.com", 'label': "yummy burger", 'file': "burger.png"},
+            #{'source': "iconsdb.com", 'label': "White square", 'file': "white-square-16.png"},
             #{'source': "iconsdb.com", 'label': "Blue square", 'file': "blue-square-16.jpg"}
         ]
     # gather analysis data and meta data for each image, adding attributes to each row in table
@@ -36,18 +34,6 @@ def image_data(path="static/Images/", img_list=None):  # path of static images i
         file = path + img_dict['file']  # file with path for local access (backend)
         # Python Image Library operations
         img_reference = Image.open(file)  # PIL
-
-        #hori_flippedImage = img_reference.transpose(Image.FLIP_LEFT_RIGHT)
-        #hori_flippedImage.show()
-        d1 = ImageDraw.Draw(img_reference)
-        if img_dict['file'] == "white-square-16.png":
-            d1.text((0, 0), "Hi!",  fill =(255, 0, 0))
-        elif img_dict['file'] == "lassen-volcano-256.jpg":
-            d1.text((0, 0), "hello everyone")
-        else:
-            d1.text((0, 0), "Hi!")
-        img_reference.save(file)
-
         img_data = img_reference.getdata()  # Reference https://www.geeksforgeeks.org/python-pil-image-getdata/
         img_dict['format'] = img_reference.format
         img_dict['mode'] = img_reference.mode
@@ -85,6 +71,7 @@ if __name__ == "__main__":
     local_path = "/static/Images/"
     img_test = [
         {'source': "iconsdb.com", 'label': "Blue square", 'file': "lassen-volcano-256.jpg"},
+        {'source': "iconsdb.com", 'label': "yummy burger", 'file': "burger.png"},
     ]
     items = image_data(local_path, img_test)  # path of local run
     for row in items:
