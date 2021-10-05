@@ -5,7 +5,6 @@ from io import BytesIO
 
 
 
-
 # image (PNG, JPG) to base64 conversion (string), learn about base64 on wikipedia https://en.wikipedia.org/wiki/Base64
 def image_base64(img, img_type):
     with BytesIO() as buffer:
@@ -25,9 +24,9 @@ def image_data(path="static/Images/", img_list=None):  # path of static images i
             {'source': "Peter Carolin", 'label': "Lassen Volcano", 'file': "lassen-volcano-256.jpg"},
             #{'source': "iconsdb.com", 'label': "Black square", 'file': "black-square-16.png"},
             {'source': "iconsdb.com", 'label': "Red square", 'file': "red-square-16.png"},
-            {'source': "iconsdb.com", 'label': "Green square", 'file': "green-square-16.png"},
-            #{'source': "iconsdb.com", 'label': "Blue square", 'file': "blue-square-16.png"},
-            {'source': "iconsdb.com", 'label': "White square", 'file': "white-square-16.png"},
+            #{'source': "iconsdb.com", 'label': "Green square", 'file': "green-square-16.png"},
+            #'source': "iconsdb.com", 'label': "Blue square", 'file': "image.png"},
+            #{'source': "iconsdb.com", 'label': "White square", 'file': "white-square-16.png"},
             #{'source': "iconsdb.com", 'label': "Blue square", 'file': "blue-square-16.jpg"}
         ]
     # gather analysis data and meta data for each image, adding attributes to each row in table
@@ -46,6 +45,15 @@ def image_data(path="static/Images/", img_list=None):  # path of static images i
             d1.text((0, 0), "hello everyone")
         else:
             d1.text((0, 0), "Hi!")
+        img_reference.save(file)
+
+
+        rotated = img_reference.rotate(45)
+        if img_dict['file'] == "lassen-volcano-256.jpg":
+            rotated.show()
+        else:
+            img_dict['file'] == "white-square-16-png"
+            d1.text ((2,45), "yo") #placeholder for if else statement (this doesnt actually run)
         img_reference.save(file)
 
         img_data = img_reference.getdata()  # Reference https://www.geeksforgeeks.org/python-pil-image-getdata/

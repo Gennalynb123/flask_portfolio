@@ -2,6 +2,19 @@
 {% extends "layouts/base.html" %}
 {% block body %}
 <script>
+    function rotateImage() {
+        if (document.getElementById("button2").value == "Rotate")
+        {
+            document.getElementById("img1").src = document.getElementById("img_rotate1").innerHTML;
+            document.getElementById("button2").value = "Original";
+        else
+            {
+                document.getElementById("button2").value = "Rotate";
+                document.getElementById("img1").src = document.getElementById("img_orig1").innerHTML;
+            }
+    }
+</script>
+<script>
 
     // Hack: add java script function to toggle image from original to gray and back (toggle)
     function toggleImage() {
@@ -61,7 +74,9 @@
                     -->
                     <p hidden id="img_orig{{loop.index}}">{{image.base64}}</p>
                     <p hidden id="img_gray{{loop.index}}">{{image.base64_GRAY}}</p>
+                    <p hidden id="img_rotate{{loop.index}}">{{image.base64_ROTATE}}</p>
                     <input type="button" id="button1" value="Gray" onclick="toggleImage()">
+                    <input type="button" id="button2" value="Rotate" onclick="rotateImage()">
                 </td>
                 <td>
                     <div class="overflow-auto" style="height: 256px">
