@@ -48,6 +48,7 @@
 ###  [TPT Activities (TPT brainstorm, 3.1/3.2 work/notes,journals](https://github.com/Gennalynb123/flask_portfolio/issues/17)
 ###  [RGB mini-lab (set up only)](https://github.com/Gennalynb123/flask_portfolio/issues/18)
 ## [Sprint 7 and 8 - Logic Gates]
+### [Sprints 7 & 8](https://github.com/Gennalynb123/flask_portfolio/projects/2)
 ### Frontside Ideas
 #### Our homepage will be a directory that helps guide our audience to different personality tests.
 #### Tests will ask the audience a series of questions, and will determine traits specific to the audience based on the answers chosen.
