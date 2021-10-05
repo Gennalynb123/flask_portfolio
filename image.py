@@ -53,7 +53,7 @@ def image_data(path="static/Images/", img_list=None):  # path of static images i
             rotated.show()
         else:
             img_dict['file'] == "white-square-16-png"
-            d1.text ((2,45), "yo") #placeholder for if else statement (this doesnt actually run)
+            d1.text ((2,45), "yo") #placeholder for if else statement (this doesn't actually run)
         img_reference.save(file)
 
         img_data = img_reference.getdata()  # Reference https://www.geeksforgeeks.org/python-pil-image-getdata/
