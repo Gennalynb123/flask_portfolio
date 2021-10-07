@@ -47,7 +47,6 @@ def image_data(path="static/Images/", img_list=None):  # path of static images i
             d1.text((0, 0), "Hi!")
         img_reference.save(file)
 
-
         rotated = img_reference.rotate(45)
         if img_dict['file'] == "lassen-volcano-256.jpg":
             rotated.show()
@@ -55,6 +54,7 @@ def image_data(path="static/Images/", img_list=None):  # path of static images i
             img_dict['file'] == "white-square-16-png"
             d1.text ((2,45), "yo") #placeholder for if else statement (this doesn't actually run)
         img_reference.save(file)
+
 
         img_data = img_reference.getdata()  # Reference https://www.geeksforgeeks.org/python-pil-image-getdata/
         img_dict['format'] = img_reference.format
@@ -90,7 +90,7 @@ def image_data(path="static/Images/", img_list=None):  # path of static images i
 
 # run this as standalone tester to see data printed in terminal
 if __name__ == "__main__":
-    local_path = "/static/Images/"
+    local_path = "../../static/Images/"
     img_test = [
         {'source': "iconsdb.com", 'label': "Blue square", 'file': "lassen-volcano-256.jpg"},
     ]
