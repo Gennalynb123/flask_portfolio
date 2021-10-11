@@ -12,15 +12,14 @@ def index():
     return render_template("index.html")
 
 
-@app.route('/Test/')
-def Test():
-    return render_template("Test.html")
-
-
 @app.route('/Results/')
 def Results():
     return render_template("Results.html")
 
+
+@app.route('/Test/')
+def Test():
+    return render_template("Test.html")
 
 
 @app.route('/Gennalyn/')
