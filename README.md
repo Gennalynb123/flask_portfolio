@@ -50,11 +50,13 @@
 ###  [RGB mini-lab (set up only)](https://github.com/Gennalynb123/flask_portfolio/issues/18)
 ## [Sprint 7 and 8 - Logic Gates]
 ### [Sprints 7 & 8](https://github.com/Gennalynb123/flask_portfolio/projects/2)
+### [Logic Gates](https://github.com/Gennalynb123/flask_portfolio/issues/21)
 ### Frontside Ideas
 #### Our homepage will be a directory that helps guide our audience to different personality tests.
 #### Tests will ask the audience a series of questions, and will determine traits specific to the audience based on the answers chosen.
 #### Our Webpage will have a top facing navigation bar with links to a homepage
 ## Contributors
+## Week 6
 | Name | Tasks |
 |:-----|:-----:|
 | Jun Lim | [Tangible](https://github.com/Gennalynb123/flask_portfolio/commit/78177d211b2b851ef60b6f1fd33f8e17bed4162a)
@@ -62,5 +64,19 @@
 | Lucas Ho |  [Tangible](https://github.com/Gennalynb123/flask_portfolio/commit/96463bdaf7843b0b01688e6cd427b2bc334ba2d0) 
 | Gennalyn Bongolan|  [Tangible](https://github.com/Gennalynb123/flask_portfolio/commit/08c1dd4b5784d03ab2a312ee83e97ab6cb01164f) 
 | Ali Gull|  [Tangible](https://docs.google.com/document/d/1yM7xTlAMoBwxjcCVS7KfeJWDonRg233bafW-5xDGv_0/edit) 
-
-
+## Week 7
+| Name | Tasks |
+|:-----|:-----:|
+| Jun Lim | [Tangible](https://github.com/Gennalynb123/flask_portfolio/commit/ed2e517bd7acc8562ee0f1f4488ef3b0044fb329)
+| Ŕithwikh Várma|  [Tangible](https://github.com/Gennalynb123/flask_portfolio/commit/1ce6e996bcd36b5a9a66caadf747d54cf5ae1a95) 
+| Lucas Ho |  [Tangible](https://github.com/Gennalynb123/flask_portfolio/commit/1b75eda112583a3484588ff45c3178250fba45e1) 
+| Gennalyn Bongolan|  [Tangible](https://github.com/Gennalynb123/flask_portfolio/commit/08c1dd4b5784d03ab2a312ee83e97ab6cb01164f) 
+| Ali Gull|  [Tangible](https://docs.google.com/document/d/1yM7xTlAMoBwxjcCVS7KfeJWDonRg233bafW-5xDGv_0/edit) 
+## Week 8
+| Name | Tasks |
+|:-----|:-----:|
+| Jun Lim | [Tangible]()
+| Ŕithwikh Várma|  [Tangible]() 
+| Lucas Ho |  [Tangible](https://github.com/Gennalynb123/flask_portfolio/commit/1b75eda112583a3484588ff45c3178250fba45e1) 
+| Gennalyn Bongolan|  [Tangible]() 
+| Ali Gull|  [Tangible]() 

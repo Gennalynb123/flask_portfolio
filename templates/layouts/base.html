@@ -11,6 +11,7 @@ This HTML is setup as as a Jinja2 layout, coders use layouts for:
 {% set github = "https://github.com/nighthawkcoders" %}
 {% set twitter = "https://twitter.com/NighthawkCoding" %}
 {% set youtube = "https://www.youtube.com/channel/UClIKOsDS5dsfzFA3zveDT3Q?view_as=subscriber" %}
+{% set delnorte = "https://www.powayusd.com/en-US/Schools/HS/DNHS/Home" %}
 
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -71,6 +72,10 @@ This HTML is setup as as a Jinja2 layout, coders use layouts for:
             color: #000000;
         }
 
+        .fa-book:hover{
+            color: #4ca80f;
+        }
+
         .btn:link,
         .btn:visited {
             text-transform: uppercase;
@@ -110,13 +115,14 @@ This HTML is setup as as a Jinja2 layout, coders use layouts for:
 {% block body %}
 <div class="container-fluid">
     <div class="row justify-content-end" style="padding: 2%;">
-        <div class="col-2" style="text-align: right;">
+        <div class="col-2" style="text-align: left;">
             {% block info %}
                 <!-- notice jinja style variables used in href's -->
                 <a><h5>{{basename}}</h5></a>
                 <a href={{github}} target="_blank"><i class="fa fa-github"></i></a>
                 <a href={{youtube}} target="_blank"><i class="fa fa-youtube-play"></i></a>
                 <a href={{twitter}} target="_blank"><i class="fa fa-twitter"></i></a>
+                <a href={{delnorte}} target="_blank"><i class="fa fa-book"></i></a>
             {% endblock %}
         </div>
     </div>
