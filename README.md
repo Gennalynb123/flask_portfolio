@@ -70,7 +70,7 @@
 | Jun Lim | [Tangible](https://github.com/Gennalynb123/flask_portfolio/commit/ed2e517bd7acc8562ee0f1f4488ef3b0044fb329)
 | Ŕithwikh Várma|  [Tangible](https://github.com/Gennalynb123/flask_portfolio/commit/1ce6e996bcd36b5a9a66caadf747d54cf5ae1a95) 
 | Lucas Ho |  [Tangible](https://github.com/Gennalynb123/flask_portfolio/commit/1b75eda112583a3484588ff45c3178250fba45e1) 
-| Gennalyn Bongolan|  [Tangible](https://github.com/Gennalynb123/flask_portfolio/commit/08c1dd4b5784d03ab2a312ee83e97ab6cb01164f) 
+| Gennalyn Bongolan|  [Tangible](https://github.com/Gennalynb123/flask_portfolio/commit/721f99d77ed647df3ecea7112960663342c25cd5) 
 | Ali Gull|  [Tangible](https://docs.google.com/document/d/1yM7xTlAMoBwxjcCVS7KfeJWDonRg233bafW-5xDGv_0/edit) 
 ## Week 8
 | Name | Tasks |
