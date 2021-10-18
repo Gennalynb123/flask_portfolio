@@ -10,8 +10,7 @@
 6. [Sprints 3,4 - Prototyping](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md#sprint-3-and-4)
 7. [Sprints 5,6 - Time Boxing](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md#sprint-5-and-6)
 9. [Sprints 7,8 - Logic Gates](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md#sprint-7-and-8---logic-gates)
-10.[Contributions](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md#contributions)
-
+10. [Contributions](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md#contributions)
 
 ## Contributors
 | Name | GitHub ID and Profile | Tasks | Scrum Board | Commits |
