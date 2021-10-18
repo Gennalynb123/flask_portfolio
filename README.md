@@ -23,12 +23,11 @@
 ## Pair Share Journals
 ### [Lucas, Ŕithwikh, and Gennalyn's Journal](https://docs.google.com/document/d/1XcHNurxEvFBZuBIZhxlTkx_ClMmk2kVWZFs-sb4uy2E/edit)
 ### [Jun and Ali's Journal](https://docs.google.com/document/d/1WvZphnC7vT6UqtVZ2HngxIULrPpT7rWK3-EGbG_K3Po/edit)
-# Sprint 5,6 Week 5
-## Links to issues for this week
-### - [TPT Activities (TPT brainstorm, 3.1/3.2 work/notes,journals](https://github.com/Gennalynb123/flask_portfolio/issues/17)
-### - [RGB mini-lab (set up only)](https://github.com/Gennalynb123/flask_portfolio/issues/18)
-### - [RGB mini-lab](https://github.com/Gennalynb123/flask_portfolio/issues/20)
-### - [Research/Study Sheet](https://github.com/Gennalynb123/flask_portfolio/issues/19)
+# Sprint 7,8 
+## Links to issues for this sprint
+### - [Logic Gates](https://github.com/Gennalynb123/flask_portfolio/issues/21)
+### - [TPT Work (3.7/3.8)](https://github.com/Gennalynb123/flask_portfolio/issues/24)
+
 
 
 #### We still want to have our layout more personalized, along with our individual home pages, but we are satisfied with our progress for this week. A lot of our time was spent on learning how to get images into our projects and create backgrounds. Overall, we created a Mini-Labs/concepts dropdown that includes Brain Write, Wireframes, Greet, TPT3, and our individual home pages. We will likely move our home pages to a different section once they are developed more. We successfully came up with a theme and integrated it into our about page.
@@ -48,9 +47,12 @@
 ### [Sprints 5 & 6](https://github.com/Gennalynb123/flask_portfolio/projects/2)
 ###  [TPT Activities (TPT brainstorm, 3.1/3.2 work/notes,journals](https://github.com/Gennalynb123/flask_portfolio/issues/17)
 ###  [RGB mini-lab (set up only)](https://github.com/Gennalynb123/flask_portfolio/issues/18)
+###  [RGB mini-lab](https://github.com/Gennalynb123/flask_portfolio/issues/20)
 ## [Sprint 7 and 8 - Logic Gates]
 ### [Sprints 7 & 8](https://github.com/Gennalynb123/flask_portfolio/projects/2)
 ### [Logic Gates](https://github.com/Gennalynb123/flask_portfolio/issues/21)
+### [TPT Work (3.7/3.8)](https://github.com/Gennalynb123/flask_portfolio/issues/24)
+
 ### Frontside Ideas
 #### Our homepage will be a directory that helps guide our audience to different personality tests.
 #### Tests will ask the audience a series of questions, and will determine traits specific to the audience based on the answers chosen.
