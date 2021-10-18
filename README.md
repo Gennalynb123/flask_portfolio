@@ -58,6 +58,9 @@
 #### Tests will ask the audience a series of questions, and will determine traits specific to the audience based on the answers chosen.
 #### Our Webpage will have a top facing navigation bar with links to a homepage
 ## Contributions
+1. [Week 6](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md#contributors)
+2. [Pair Share Journals](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md#pair-share-journals)
+3. [Project Ideation](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md#project-ideation)
 ## Week 6
 | Name | Tasks |
 |:-----|:-----:|
