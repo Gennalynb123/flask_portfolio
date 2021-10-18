@@ -59,7 +59,7 @@
 #### Our Webpage will have a top facing navigation bar with links to a homepage
 ## Contributions
 1. [Week 6](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md#week-6)
-2. [Pair Share Journals](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md#week-7)
+2. [Week 7](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md#week-7)
 3. [Project Ideation](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md#week-8)
 ## Week 6
 | Name | Tasks |
