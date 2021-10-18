@@ -9,7 +9,8 @@
 5. [Sprints 1,2 - Innovation](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md#sprint-1-and-2---innovation)
 6. [Sprints 3,4 - Prototyping](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md#sprint-3-and-4)
 7. [Sprints 5,6 - Time Boxing](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md#sprint-5-and-6)
-8. [Sprints 7,8 - Logic Gates](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md#sprint-7-and-8---logic-gates)
+9. [Sprints 7,8 - Logic Gates](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md#sprint-7-and-8---logic-gates)
+10.[Contributions](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md#contributors-1)
 
 
 ## Contributors
