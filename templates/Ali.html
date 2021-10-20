@@ -1,44 +1,90 @@
 <!-- Extending the predefined project layout -->
 {% extends "layouts/base.html" %}
 
+{% set overview = "https://docs.google.com/document/d/1XcHNurxEvFBZuBIZhxlTkx_ClMmk2kVWZFs-sb4uy2E/edit" %}
+{% set repo = "https://github.com/Gennalynb123/flask_portfolio/projects/2" %}
+{% set scrumboard = "https://poway.instructure.com/" %}
+
 <!- This variable sets name of browser tab  -->
 {% set project = "Stubby" %}
 
 <!- This is a replacement block for Body in base.html -->
 {% block body %}
-    <!- Try building a new body here ->
+<!- Try building a new body here ->
+<div class="col-12">
+  <h1 style="font-size:70px;">Welcome to my greet page </h1>
+</div>
 
-    <head>
-        <title>HTML Background Color</title>
-    </head>
-    <body style="background-color:orangered;">
+<div class="center-block" style="margin: 2% 5% 5%; text-align:left; font-family: gilroy,serif;">
 
-    </body>
+  <div class="col-12">
+    <p>Hello, {{name}}!</p>
+  </div>
 
-    <p>Kinish</p>
+  <div class="col-12">
+    <form action="/Ali" id="Ali" method="POST" >
+      <label for="name">Type your name <label>
+      <input name="name" id="name">
+      <input type="submit" value="Greetings!">
+    </form>
+  </div>
 
-    <div class="center-block" style="margin: 2% 5% 5%; text-align:left; font-family: gilroy,serif;">
+</div>
 
-
-
-        <div class="col-12">
-            <p>Hello, {{name}}!</p>
-        </div>
-
-        <div class="col-12">
-            <form action="/ALI" id="ALI" method="POST" >
-                <label for="name">Type a greeting name?</label>
-                <input name="name" id="name">
-                <input type="submit" value="Greetings!">
-            </form>
-        </div>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
 
 
+<head>
+  <title>HTML Background Color</title>
+</head>
+<body style="background-color:#C0C0C0;">
 
+</body>
+
+<div class="w3-panel w3-border-top w3-border-bottom w3-border-green">
+  <center>
+
+    <div class="w3-panel w3-Green">
+      <h1 class="w3-text-red" style="text-shadow:1px 1px 0 #444">
+        <b>Ali</b></h1>
     </div>
+
+    <p class="w3-monospace">Hello My name is Ali. I am a senior at Del norte high school. I like learning new staff
+    about computers, and I also like math </p>
+  </center>
+</div>
+</div>
+
+<div class="row" style="padding-left: 10%;">
+  {% block links %}
+  <div class="col-3">
+    <a href="{{ overview }}" class="btn">Journal</a>
+  </div>
+
+  <div class="col-3">
+    <a href="{{ repo }}" class="btn">Scrumboard</a>
+  </div>
+
+  <div class="col-3">
+    <a href="{{ scrumboard }}" class="btn">MyConnect</a>
+  </div>
+
+  {% endblock %}
+</div>
 
 {% endblock %}
 
 <!- This is turning off birds background from base.html -->
 {% block background %}
+<head>
+  <title>color</title>
+</head>
+<body style="background-color:#0884ab;">
+
+</body>
 {% endblock %}
+
