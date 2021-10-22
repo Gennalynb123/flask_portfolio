@@ -83,7 +83,7 @@
 |:-----|:-----:|
 | Jun Lim | [Tangible]()
 | Ŕithwikh Várma|  [Tangible]() 
-| Lucas Ho |  [Tangible](https://github.com/Gennalynb123/flask_portfolio/commit/1b75eda112583a3484588ff45c3178250fba45e1) 
+| Lucas Ho |  [Tangible]() 
 | Gennalyn Bongolan|  [Tangible]() 
 | Ali Gull|  [Tangible]() 
 ## Final Videos Part 1:
