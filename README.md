@@ -87,7 +87,7 @@
 | Gennalyn Bongolan|  [Tangible]() 
 | Ali Gull|  [Tangible]() 
 ## Final Videos Part 1:
-| Name | Average Score | Grading |
+| Name | Average Score | Grading Links |
 |:-----|:-----|:-----:|
 | Jun Lim | [Tangible]()
 | Ŕithwikh Várma|  [Tangible]() 
