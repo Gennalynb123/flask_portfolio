@@ -24,10 +24,6 @@
 ## Pair Share Journals
 ### [Lucas, Ŕithwikh, and Gennalyn's Pair-Share Journal](https://docs.google.com/document/d/1XcHNurxEvFBZuBIZhxlTkx_ClMmk2kVWZFs-sb4uy2E/edit)
 ### [Jun and Ali's Pair-Share Journal](https://docs.google.com/document/d/1WvZphnC7vT6UqtVZ2HngxIULrPpT7rWK3-EGbG_K3Po/edit)
-# Sprint 7,8 
-## Links to issues for this sprint
-### - [Logic Gates](https://github.com/Gennalynb123/flask_portfolio/issues/21)
-### - [TPT Work (3.7/3.8)](https://github.com/Gennalynb123/flask_portfolio/issues/24)
 
 
 
@@ -53,6 +49,11 @@
 ### [Sprints 7 & 8](https://github.com/Gennalynb123/flask_portfolio/projects/2)
 ### [Logic Gates](https://github.com/Gennalynb123/flask_portfolio/issues/21)
 ### [TPT Work (3.7/3.8)](https://github.com/Gennalynb123/flask_portfolio/issues/24)
+## [Sprint 9 and 10 - Individual Videos]
+### [Jun Lim](https://github.com/Gennalynb123/flask_portfolio/issues/28)
+### [Lucas Ho](https://github.com/Gennalynb123/flask_portfolio/issues/27)
+### [Gennalyn Bongolan](https://github.com/Gennalynb123/flask_portfolio/issues/26)
+
 
 ### Frontside Ideas
 #### Our homepage will be a directory that helps guide our audience to different personality tests.
@@ -86,11 +87,11 @@
 | Lucas Ho |  [Tangible]() 
 | Gennalyn Bongolan|  [Tangible]() 
 | Ali Gull|  [Tangible]() 
-## Final Videos Part 1:
+## Week 9 Final Videos Part 1:
 | Name | Average Score | Grading Links |
 |:-----|:-----|:-----:|
-| Jun Lim | [Tangible]()
-| Ŕithwikh Várma|  [Tangible]() 
-| Lucas Ho |  [Tangible](https://github.com/Gennalynb123/flask_portfoliofba45e) 
-| Gennalyn Bongolan|  [Tangible]() 
-| Ali Gull|  [Tangible]() 
+| Jun Lim || [Tangible](https://github.com/Gennalynb123/flask_portfolio/issues/28)
+| Ŕithwikh Várma||  [Tangible]() 
+| Lucas Ho ||  [Tangible](https://github.com/Gennalynb123/flask_portfolio/issues/27) 
+| Gennalyn Bongolan||  [Tangible](https://github.com/Gennalynb123/flask_portfolio/issues/26) 
+| Ali Gull||  [Tangible]() 
