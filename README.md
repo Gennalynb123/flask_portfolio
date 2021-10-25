@@ -49,10 +49,11 @@
 ### [Sprints 7 & 8](https://github.com/Gennalynb123/flask_portfolio/projects/2)
 ### [Logic Gates](https://github.com/Gennalynb123/flask_portfolio/issues/21)
 ### [TPT Work (3.7/3.8)](https://github.com/Gennalynb123/flask_portfolio/issues/24)
-## [Sprint 9 and 10 - Individual Videos]
+## [Final Videos Part #1]
 ### [Jun Lim](https://github.com/Gennalynb123/flask_portfolio/issues/28)
 ### [Lucas Ho](https://github.com/Gennalynb123/flask_portfolio/issues/27)
 ### [Gennalyn Bongolan](https://github.com/Gennalynb123/flask_portfolio/issues/26)
+### [Ŕithwikh Várma](https://github.com/Gennalynb123/flask_portfolio/issues/30)
 
 
 ### Frontside Ideas
@@ -91,7 +92,7 @@
 | Name | Average Score | Grading Links |
 |:-----|:-----|:-----:|
 | Jun Lim || [Tangible](https://github.com/Gennalynb123/flask_portfolio/issues/28)
-| Ŕithwikh Várma||  [Tangible]() 
+| Ŕithwikh Várma||  [Tangible](https://github.com/Gennalynb123/flask_portfolio/issues/30) 
 | Lucas Ho ||  [Tangible](https://github.com/Gennalynb123/flask_portfolio/issues/27) 
 | Gennalyn Bongolan||  [Tangible](https://github.com/Gennalynb123/flask_portfolio/issues/26) 
 | Ali Gull||  [Tangible]() 
