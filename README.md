@@ -11,22 +11,18 @@
 7. [Sprints 5,6 - Time Boxing](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md#sprint-5-and-6)
 9. [Sprints 7,8 - Logic Gates](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md#sprint-7-and-8---logic-gates)
 10. [Contributions](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md#contributions)
-
+11. [Final Videos Part #1](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md#Final-videos-part-#1)
 ## Contributors
 | Name | GitHub ID and Profile | Tasks | Scrum Board | Commits |
 |:-----|:----------------------|:-----:|:-----------:|:-------:|
-| Jun Lim | [@the1jun](https://github.com/the1jun) [@peacekeeper6](https://github.com/peacekeeper6)| [Tasks](https://github.com/Gennalynb123/flask_portfolio/projects/2#card-68554960) |[Scrum Board](https://github.com/Gennalynb123/flask_portfolio/projects/2) | [Commits 1](https://github.com/Gennalynb123/flask_portfolio/commits?author=the1jun)[Commits 2](https://github.com/Gennalynb123/flask_portfolio/commits?author=peacekeeper6)
+| Jun Lim | [@the1jun](https://github.com/the1jun) [@peacekeeper6](https://github.com/peacekeeper6)| [Tasks](https://github.com/Gennalynb123/flask_portfolio/projects/2#card-68554960) |[Scrum Board](https://github.com/Gennalynb123/flask_portfolio/projects/2) | [Commits 1](https://github.com/Gennalynb123/flask_portfolio/commits?author=the1jun) [Commits 2](https://github.com/Gennalynb123/flask_portfolio/commits?author=peacekeeper6)
 | Ŕithwikh Várma| [@guapbeast](https://github.com/guapbeast) | [Tasks](https://github.com/Gennalynb123/flask_portfolio/projects/2#card-68554850) |[Scrum Board](https://github.com/Gennalynb123/flask_portfolio/projects/2) | [Commits](https://github.com/Gennalynb123/flask_portfolio/commits?author=guapbeast)
 | Lucas Ho | [@lucasho22](https://github.com/lucasho22) | [Tasks](https://github.com/Gennalynb123/flask_portfolio/projects/2#card-68559291) |[Scrum Board](https://github.com/Gennalynb123/flask_portfolio/projects/2) |[Commits](https://github.com/Gennalynb123/flask_portfolio/commits?author=lucasho22)
 | Gennalyn Bongolan | [@Gennalynb123](https://github.com/Gennalynb123) | [Tasks](https://github.com/Gennalynb123/flask_portfolio/projects/2#card-68554609) |[Scrum Board](https://github.com/Gennalynb123/flask_portfolio/projects/2) |[Commits](https://github.com/Gennalynb123/flask_portfolio/commits?author=Gennalynb123)
 | Ali Gull | [@sayed123455](https://github.com/sayed123455) | [Tasks](https://github.com/Gennalynb123/flask_portfolio/projects/2#card-68559348) |[Scrum Board](https://github.com/Gennalynb123/flask_portfolio/projects/2) |[Commits](https://github.com/Gennalynb123/flask_portfolio/commits?author=sayed123455)
 ## Pair Share Journals
-### [Lucas, Ŕithwikh, and Gennalyn's Journal](https://docs.google.com/document/d/1XcHNurxEvFBZuBIZhxlTkx_ClMmk2kVWZFs-sb4uy2E/edit)
-### [Jun and Ali's Journal](https://docs.google.com/document/d/1WvZphnC7vT6UqtVZ2HngxIULrPpT7rWK3-EGbG_K3Po/edit)
-# Sprint 7,8 
-## Links to issues for this sprint
-### - [Logic Gates](https://github.com/Gennalynb123/flask_portfolio/issues/21)
-### - [TPT Work (3.7/3.8)](https://github.com/Gennalynb123/flask_portfolio/issues/24)
+### [Lucas, Ŕithwikh, and Gennalyn's Pair-Share Journal](https://docs.google.com/document/d/1XcHNurxEvFBZuBIZhxlTkx_ClMmk2kVWZFs-sb4uy2E/edit)
+### [Jun and Ali's Pair-Share Journal](https://docs.google.com/document/d/1WvZphnC7vT6UqtVZ2HngxIULrPpT7rWK3-EGbG_K3Po/edit)
 
 
 
@@ -52,6 +48,12 @@
 ### [Sprints 7 & 8](https://github.com/Gennalynb123/flask_portfolio/projects/2)
 ### [Logic Gates](https://github.com/Gennalynb123/flask_portfolio/issues/21)
 ### [TPT Work (3.7/3.8)](https://github.com/Gennalynb123/flask_portfolio/issues/24)
+## [Final Videos Part #1]
+### [Jun Lim](https://github.com/Gennalynb123/flask_portfolio/issues/28)
+### [Lucas Ho](https://github.com/Gennalynb123/flask_portfolio/issues/27)
+### [Gennalyn Bongolan](https://github.com/Gennalynb123/flask_portfolio/issues/26)
+### [Ŕithwikh Várma](https://github.com/Gennalynb123/flask_portfolio/issues/30)
+
 
 ### Frontside Ideas
 #### Our homepage will be a directory that helps guide our audience to different personality tests.
@@ -82,6 +84,14 @@
 |:-----|:-----:|
 | Jun Lim | [Tangible]()
 | Ŕithwikh Várma|  [Tangible]() 
-| Lucas Ho |  [Tangible](https://github.com/Gennalynb123/flask_portfolio/commit/1b75eda112583a3484588ff45c3178250fba45e1) 
+| Lucas Ho |  [Tangible]() 
 | Gennalyn Bongolan|  [Tangible]() 
 | Ali Gull|  [Tangible]() 
+## Week 9 Final Videos Part 1:
+| Name | Average Score | Grading Links |
+|:-----|:-----|:-----:|
+| Jun Lim || [Tangible](https://github.com/Gennalynb123/flask_portfolio/issues/28)
+| Ŕithwikh Várma||  [Tangible](https://github.com/Gennalynb123/flask_portfolio/issues/30) 
+| Lucas Ho ||  [Tangible](https://github.com/Gennalynb123/flask_portfolio/issues/27) 
+| Gennalyn Bongolan||  [Tangible](https://github.com/Gennalynb123/flask_portfolio/issues/26) 
+| Ali Gull||  [Tangible]() 
