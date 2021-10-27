@@ -139,6 +139,15 @@ def ALI():
     return render_template("Ali.html", name="World")
 
 
+@app.route('/retake', methods=['GET', 'POST'])
+def retake():
+    # submit button has been pushed
+    if request.form:
+        name = request.form.get("name")
+        return render_template("Test.html", name=name)
+    # starting and empty input default
+
+
 @app.route('/binary/', methods=['GET', 'POST'])
 def binary():
     if request.method == "POST":
