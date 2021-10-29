@@ -4,6 +4,7 @@
 {% endblock %}
 
 
+
 {% block body %}
 
     <!DOCTYPE html>
@@ -43,6 +44,11 @@
             }
         </style>
         <![endif]-->
+
+    <body style="background-color:#e8acc1;">
+
+    </body>
+
     </head>
 
     </header>
@@ -51,13 +57,14 @@
         <div id="not-affys">
             <div id="content">
 
-
+            <div>
+                <center>
 
                 <h1>What Song Are You?</h1>
 
-
-
                 <p>Read and answer each question. Then press the submit button to find out which song you are :o</p>
+                </center>
+            </div>
 
                 <script>
                     function calculateResults() {
@@ -75,13 +82,23 @@
                         //alert("Total results: " + results);
 
                         if (results >= 80) {
-                            document.getElementById("resultsDiv").innerHTML = "You Like Pop Music";
-                        } else if (results < 80 && results >= 60) {
-                            document.getElementById("resultsDiv").innerHTML = "You Like Rock Music";
-                        } else if (results < 60 && results >= 40) {
-                            document.getElementById("resultsDiv").innerHTML = "You Like Rap Music";
-                        } else {
-                            document.getElementById("resultsDiv").innerHTML = "You Like Dance Music";
+                            document.getElementById("resultsDiv").innerHTML = "80";
+                        } else if (results < 80 && results >= 70) {
+                            document.getElementById("resultsDiv").innerHTML = "70";
+                        } else if (results < 70 && results >= 60) {
+                            document.getElementById("resultsDiv").innerHTML = "60";
+                        } else if (results < 60 && results >= 50) {
+                            document.getElementById("resultsDiv").innerHTML = "50";
+                        } else if (results < 50 && results >= 40) {
+                            document.getElementById("resultsDiv").innerHTML = "40";
+                        } else if (results < 40 && results >= 30) {
+                            document.getElementById("resultsDiv").innerHTML = "30";
+                        } else if (results < 30 && results >= 20) {
+                            document.getElementById("resultsDiv").innerHTML = "20";
+                        } else if (results < 20 && results >= 10) {
+                            document.getElementById("resultsDiv").innerHTML = "10";
+                        } else if (results < 10 && results >= 0) {
+                            document.getElementById("resultsDiv").innerHTML = "0";
                         }
                     }
                 </script>
