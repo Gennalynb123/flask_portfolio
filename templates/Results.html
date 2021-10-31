@@ -6,7 +6,7 @@
 
     <style>
         table, th, td {
-            border:1px solid #09ff40;
+            border:1px solid #4709ff;
         }
 
         <style>
@@ -19,12 +19,12 @@
         }
 
         .p3 {
-            color: #f8163f;
+            color: rgba(224, 58, 253, 0.99);
             font-family: "Monaco", "Monaco", fantasy;
         }
 
         body {
-            background-image: url("https://i.kym-cdn.com/photos/images/newsfeed/000/954/161/b3a.jpg");
+            background-image: url("https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
             background-color: #cccccc;
             background-repeat: no-repeat;
             background-size: cover;
@@ -83,20 +83,22 @@
 
         </table>
 
-        <p><a href="/">Back to home</a></p>
+        <a href="http://127.0.0.1:5000/"><img src="https://image.winudf.com/v2/image1/Y29tLmhvbWUuYnV0dG9uLnJlY2VudC5zZXR0aW5ncy5iYWNrX2ljb25fMTYxMzEzNTU2Ml8wNzU/icon.png?w=&fakeurl=1" alt="Home Page" style="width:42px;height:42px;"></a>
 
     </center>
 
     <center>
 
-        <form name="retake" action="/retake" method="POST">
+        <form name="retake" action="/Test/" method="POST">
             <h4 class = "p3">Retake Quiz? :o</h4>
             <ul class="nolist">
                 <li ><input type="radio" name="1" id="1" value="0" > <label class = "p3" for="1">YES</label></li>
                 <li><input type="radio" name="2" id="2" value="1"> <label class = "p3" for="2">sUrE</label></li>
             </ul>
 
-            <input type="submit" value="Submit">
+            <form action="http://127.0.0.1:5000/Test/">
+                <button type="submit">Click me</button>
+            </form>
 
     </center>
 
