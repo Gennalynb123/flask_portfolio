@@ -1,4 +1,5 @@
 # AP Computer Science Principles Period 3: Jun's Team
+Our website is a personality test that recommends music based on the personality given. Although this likely does not gauge the scope of one's actual taste in music, our project purpose was to create a website that is fun and inspirational, which we believe that we achieved to the best of our abilities. We also wanted the user to have an interactive and fun experience so adding an interactive feature like recommending them music is a good way to grab their attention.
 ## [Scrum Board](https://github.com/Gennalynb123/flask_portfolio/projects/2)
 ## [Insights with Contributors and Commits](https://github.com/Gennalynb123/flask_portfolio/commits/main)
 ## Table of Contents
