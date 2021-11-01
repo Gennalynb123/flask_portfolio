@@ -11,6 +11,44 @@
     <html>
 
     <style>
+
+        .button {
+            background-color: #1c87c9;
+            -webkit-border-radius: 60px;
+            border-radius: 60px;
+            border: none;
+            color: #eeeeee;
+            cursor: pointer;
+            display: inline-block;
+            font-family: Comic Sans MS;
+            font-size: 20px;
+            padding: 10px 10px;
+            text-align: center;
+            text-decoration: none;
+        }
+        @keyframes glowing {
+            0% {
+                background-color: #8761f8;
+                box-shadow: 0 0 5px #8761f8;
+            }
+            50% {
+                background-color: #9a7df3;
+                box-shadow: 0 0 20px #9a7df3;
+            }
+            100% {
+                background-color: #8761f8;
+                box-shadow: 0 0 5px #8761f8;
+            }
+        }
+        .button {
+            animation: glowing 1300ms infinite;
+        }
+
+
+        table, th, td {
+            border:1px solid #4709ff;
+        }
+
         table, th, td {
             border:1px solid #09ff40;
         }
@@ -316,13 +354,13 @@
 
                 <fieldset style="background-color:#c2a0fa;">
                     <input type="submit" value="Submit"/> After submitting, scroll down and then go to results page :O
+                    <a class="button" href="http://127.0.0.1:5000/Results/">Click Here to See Your Results!</a>
+
                 </fieldset>
 
             </form>
                 <fieldset style="background-color:#c2a0fa;">
                 <div  id="resultsDiv"/>
-                    <a href="/Results/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvFT5nX9spz7NBZitwndGLDkYWj_DxesGgqcCBLaNqDb62UdxYFYYizq2yHFmTsoXkS3U&usqp=CAU" alt="HTML tutorial" style="width:42px;height:42px;"></a>
-
                 </fieldset>
 
 

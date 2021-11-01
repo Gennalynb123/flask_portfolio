@@ -5,6 +5,40 @@
 
 
     <style>
+
+        .button {
+            background-color: #1c87c9;
+            -webkit-border-radius: 60px;
+            border-radius: 60px;
+            border: none;
+            color: #eeeeee;
+            cursor: pointer;
+            display: inline-block;
+            font-family: Comic Sans MS;
+            font-size: 20px;
+            padding: 10px 10px;
+            text-align: center;
+            text-decoration: none;
+        }
+        @keyframes glowing {
+            0% {
+                background-color: #5f2afd;
+                box-shadow: 0 0 5px #5f2afd;
+            }
+            50% {
+                background-color: #8761f8;
+                box-shadow: 0 0 20px #8761f8;
+            }
+            100% {
+                background-color: #5f2afd;
+                box-shadow: 0 0 5px #5f2afd;
+            }
+        }
+        .button {
+            animation: glowing 1300ms infinite;
+        }
+
+
         table, th, td {
             border:1px solid #4709ff;
         }
@@ -89,15 +123,11 @@
 
     <center>
 
-        <form name="retake" action="/Test/" method="POST">
-            <h4 class = "p3">Retake Quiz? :o</h4>
-            <ul class="nolist">
-                <li ><input type="radio" name="1" id="1" value="0" > <label class = "p3" for="1">YES</label></li>
-                <li><input type="radio" name="2" id="2" value="1"> <label class = "p3" for="2">sUrE</label></li>
-            </ul>
+        &nbsp;&nbsp;
+        &nbsp;&nbsp;
 
             <form action="http://127.0.0.1:5000/Test/">
-                <button type="submit">Click me</button>
+                <a class="button" href="http://127.0.0.1:5000/Test/">Click Here to Go Back to the Test!</a>
             </form>
 
     </center>
