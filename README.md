@@ -91,8 +91,8 @@ Our website is a personality test that recommends music based on the personality
 ## Week 9 Final Videos Part 1:
 | Name | Average Score | Grading Links |
 |:-----|:-----|:-----:|
-| Jun Lim || [Tangible](https://github.com/Gennalynb123/flask_portfolio/issues/28)
-| Ŕithwikh Várma||  [Tangible](https://github.com/Gennalynb123/flask_portfolio/issues/30) 
-| Lucas Ho ||  [Tangible](https://github.com/Gennalynb123/flask_portfolio/issues/27) 
-| Gennalyn Bongolan||  [Tangible](https://github.com/Gennalynb123/flask_portfolio/issues/26) 
-| Ali Gull||  [Tangible]() 
+| Jun Lim |6/6| [Tangible](https://github.com/Gennalynb123/flask_portfolio/issues/28)
+| Ŕithwikh Várma|6/6|  [Tangible](https://github.com/Gennalynb123/flask_portfolio/issues/30) 
+| Lucas Ho |6/6|  [Tangible](https://github.com/Gennalynb123/flask_portfolio/issues/27) 
+| Gennalyn Bongolan|6/6|  [Tangible](https://github.com/Gennalynb123/flask_portfolio/issues/26) 
+| Ali Gull|N/A|  [Tangible]() 
