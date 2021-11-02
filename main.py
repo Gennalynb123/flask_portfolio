@@ -32,6 +32,10 @@ def Lorde():
 def Gennalyn():
     return render_template("Gennalyn.html")
 
+@app.route('/LilNasX/')
+def LilNasX():
+    return render_template("lilNasX.html")
+
 @app.route('/BTS/')
 def BTS():
     return render_template("BTS.html")
