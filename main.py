@@ -40,6 +40,10 @@ def JustinBieber():
 def OliviaRodrigo():
     return render_template("OliviaRodrigo.html")
 
+@app.route('/Weeknd/')
+def Weeknd():
+    return render_template("Weeknd.html")
+
 @app.route('/BrunoMars/')
 def BrunoMars():
     return render_template("BrunoMars.html")
