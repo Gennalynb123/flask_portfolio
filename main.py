@@ -24,6 +24,9 @@ def Song():
 def Test():
     return render_template("Test.html")
 
+@app.route('/Lorde/')
+def Lorde():
+    return render_template("Lorde.html")
 
 @app.route('/Gennalyn/')
 def Gennalyn():
