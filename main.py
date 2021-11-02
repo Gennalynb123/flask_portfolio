@@ -32,6 +32,11 @@ def Lorde():
 def Gennalyn():
     return render_template("Gennalyn.html")
 
+@app.route('/DojaCat/')
+def DojaCat():
+    return render_template("DojaCat.html")
+
+
 
 @app.route('/Rithwikh/')
 def Rithwikh():
