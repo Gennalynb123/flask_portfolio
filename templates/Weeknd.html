@@ -64,6 +64,37 @@
             background-size: cover;
         }
 
+        .container {
+            position: relative;
+            width: 100%;
+            max-width: 400px;
+        }
+
+        .container img {
+            width: 100%;
+            height: auto;
+        }
+
+        .container .btn {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            background-color: #ff0202;
+            color: white;
+            font-size: 16px;
+            padding: 12px 24px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .container .btn:hover {
+            background-color: black;
+        }
+
     </style>
 
     </style>
@@ -103,8 +134,13 @@
 
     </marquee>
 
-    <iframe width="420" height="345" src="https://www.youtube.com/watch?v=XXYlFuWEuKI">
-    </iframe>
+
+
+    <div class="container">
+        <img src="https://i.ytimg.com/vi/XXYlFuWEuKI/maxresdefault.jpg" alt="Weeknd" style="width:100%">
+        <button class="btn">Click to view on YouTube</button>
+    </div>
+
     <nav>
 
     <p class = "p3" style="text-align:center;">  </>
