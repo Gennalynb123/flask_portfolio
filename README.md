@@ -54,12 +54,13 @@ Our website is a personality test that recommends music based on the personality
 ### [Lucas Ho](https://github.com/Gennalynb123/flask_portfolio/issues/27)
 ### [Gennalyn Bongolan](https://github.com/Gennalynb123/flask_portfolio/issues/26)
 ### [Ŕithwikh Várma](https://github.com/Gennalynb123/flask_portfolio/issues/30)
+## [PBL Issues]
+### [Develop website idea/wireframe](https://github.com/Gennalynb123/flask_portfolio/issues/10)
+### [Develop Hompage/Overview Page](https://github.com/Gennalynb123/flask_portfolio/issues/32)
+### [Develop Test Page](https://github.com/Gennalynb123/flask_portfolio/issues/34)
+### [Develop Results Page](https://github.com/Gennalynb123/flask_portfolio/issues/35)
+### [Add suggestions from peer review presentation](https://github.com/Gennalynb123/flask_portfolio/issues/36)
 
-
-### Frontside Ideas
-#### Our homepage will be a directory that helps guide our audience to different personality tests.
-#### Tests will ask the audience a series of questions, and will determine traits specific to the audience based on the answers chosen.
-#### Our Webpage will have a top facing navigation bar with links to a homepage
 ## Contributions
 1. [Week 6](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md#week-6)
 2. [Week 7](https://github.com/Gennalynb123/flask_portfolio/blob/main/README.md#week-7)
@@ -96,3 +97,4 @@ Our website is a personality test that recommends music based on the personality
 | Lucas Ho |6/6|  [Tangible](https://github.com/Gennalynb123/flask_portfolio/issues/27) 
 | Gennalyn Bongolan|6/6|  [Tangible](https://github.com/Gennalynb123/flask_portfolio/issues/26) 
 | Ali Gull|N/A|  [Tangible]() 
+
