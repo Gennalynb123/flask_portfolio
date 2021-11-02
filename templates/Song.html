@@ -1,10 +1,90 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends "layouts/base.html" %}
 
-</body>
-</html>
+{% block body %}
+
+
+
+    <style>
+
+        .button {
+            background-color: #1c87c9;
+            -webkit-border-radius: 60px;
+            border-radius: 60px;
+            border: none;
+            color: #eeeeee;
+            cursor: pointer;
+            display: inline-block;
+            font-family: Comic Sans MS;
+            font-size: 20px;
+            padding: 10px 10px;
+            text-align: center;
+            text-decoration: none;
+        }
+        @keyframes glowing {
+            0% {
+                background-color: #5f2afd;
+                box-shadow: 0 0 5px #5f2afd;
+            }
+            50% {
+                background-color: #8761f8;
+                box-shadow: 0 0 20px #8761f8;
+            }
+            100% {
+                background-color: #5f2afd;
+                box-shadow: 0 0 5px #5f2afd;
+            }
+        }
+        .button {
+            animation: glowing 1300ms infinite;
+        }
+
+
+        table, th, td {
+            border:1px solid #4709ff;
+        }
+
+        <style>
+         .p1 {
+             font-family: "Times New Roman", Times, serif;
+         }
+
+        .p2 {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .p3 {
+            color: rgba(255, 255, 255, 0.99);
+            font-family: "Monaco", "Monaco", fantasy;
+        }
+
+        body {
+            background-image: url("https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+            background-color: #cccccc;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+    </style>
+
+    </style>
+
+    <center>
+    <h1 class = "p3" style="text-align:center; ">Top 10 Songs of 2021</h1>
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    <p class = "p3" style="text-align:center;">Welcome to our Webpage! Click on the link at the top of the page reading "Take the Test" in order to take our test. The personality test works by asking a series of questions, which helps categorize a matching song based on an individual's personality type!</p>
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    <br>
+
+
+    <nav>
+
+    <p class = "p3" style="text-align:center;">Throughout our project, we used HTML (HyperText Markup Language) and CSS (Cascading Style Sheets) in order to format and help us design our webpage! HTML helped us to structure all of the information and design elements on our webpage, also allowing us to format our content in various forms, such as through the use of images, tables, and forms.</>
+
+
+{% endblock %}
+
+{% block background %}
+{% endblock %}
+

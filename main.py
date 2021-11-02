@@ -16,6 +16,9 @@ def index():
 def Results():
     return render_template("Results.html")
 
+@app.route('/Song/')
+def Song():
+    return render_template("Song.html")
 
 @app.route('/Test/')
 def Test():
