@@ -44,6 +44,10 @@ def OliviaRodrigo():
 def Stray():
     return render_template("Stray.html")
 
+@app.route('/Jonas/')
+def Jonas():
+    return render_template("Jonas.html")
+
 @app.route('/Weeknd/')
 def Weeknd():
     return render_template("Weeknd.html")
