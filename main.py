@@ -32,6 +32,18 @@ def Lorde():
 def Gennalyn():
     return render_template("Gennalyn.html")
 
+@app.route('/JustinBieber/')
+def JustinBieber():
+    return render_template("JustinBieber.html")
+
+@app.route('/OliviaRodrigo/')
+def OliviaRodrigo():
+    return render_template("OliviaRodrigo.html")
+
+@app.route('/BrunoMars/')
+def BrunoMars():
+    return render_template("BrunoMars.html")
+
 @app.route('/LilNasX/')
 def LilNasX():
     return render_template("lilNasX.html")
