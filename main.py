@@ -20,6 +20,10 @@ def Results():
 def Song():
     return render_template("Song.html")
 
+@app.route('/Dune/')
+def Dune():
+    return render_template("Dune.html")
+
 @app.route('/Test/')
 def Test():
     return render_template("Test.html")
