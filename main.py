@@ -48,6 +48,10 @@ def Stray():
 def Jonas():
     return render_template("Jonas.html")
 
+@app.route('/Movie/')
+def movie():
+    return render_template("Movie.html")
+
 @app.route('/Weeknd/')
 def Weeknd():
     return render_template("Weeknd.html")
