@@ -20,6 +20,10 @@ def Results():
 def Squid():
     return render_template("Squid.html")
 
+@app.route('/Building/')
+def Building():
+    return render_template("Building.html")
+
 @app.route('/Song/')
 def Song():
     return render_template("Song.html")
