@@ -16,6 +16,10 @@ def index():
 def Results():
     return render_template("Results.html")
 
+@app.route('/Squid/')
+def Squid():
+    return render_template("Squid.html")
+
 @app.route('/Song/')
 def Song():
     return render_template("Song.html")
