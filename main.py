@@ -1,6 +1,8 @@
 # import "packages" from flask
 from flask import Flask, request, render_template
 from image import image_data
+import requests
+import json
 
 # create a Flask instance
 app = Flask(__name__)
@@ -141,7 +143,20 @@ def binarySignedAddition():
 def rgb():
     return render_template("rgb.html", images=image_data())
 
+@app.route('/soundclouddata/', methods=['GET', 'POST'])
+def soundclouddata():
+    url = "https://soundcloud-data.p.rapidapi.com/artist"
 
+    querystring = {"id":"https://soundcloud.com/dj-khaled"}
+
+    headers = {
+        'x-rapidapi-host': "soundcloud-data.p.rapidapi.com",
+        'x-rapidapi-key': "9e4650470emshc2461cc01c07b29p18b9b5jsnfa759ab87fca"
+    }
+    response = requests.request("GET", url, headers=headers, params=querystring)
+    print(response.json())
+    data = json.loads(response.text)
+    return render_template("soundclouddata.html", output=response.json())
 
 
 @app.route('/GENNALYN', methods=['GET', 'POST'])

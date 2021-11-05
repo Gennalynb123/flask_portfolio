@@ -1,0 +1,81 @@
+{% extends "layouts/base.html" %}
+<meta charset=utf-8>
+
+{% block body %}
+    <body style="background-color:#DEE0E2">
+    </body>
+    <br>
+        <div class="col-12" style="text-align: center;">
+            <h1><strong>SoundCloud API</strong></h1>
+            <h2> Check out the most popular music on SoundCloud today!</h2>
+            <style>
+                button:hover {
+                    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+                }
+            </style>
+            <style>
+                button {
+                    background-color: #1564DE;
+                    border: none;
+                    color: white;
+                    padding: 10px 24px;
+                    border-radius: 8px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                    font-size: 20px;
+                }
+            </style>
+            <button onClick="window.location.reload();">Refresh Page</button>
+            </form>
+
+        </div>
+
+        <style>
+            table, th, td {
+                border:1px solid black;
+            }
+        </style>
+        <style>
+            th {
+                text-align: left;
+            }
+
+            td {
+                text-align: center;
+            }
+            th {
+                background-color: rebeccapurple;
+                color: white;
+            }
+        </style>
+        <center>
+            <p>  </p>
+            <fieldset style="background-color:#DEE0E2">
+                <table style="width:75%">
+                    <tr>
+                        <th>Track Title</th>
+                        <th>Artist</th>
+                        <th>Track Artwork</th>
+                        <th>Track Genre</th>
+                    </tr>
+                    {% for track in output.result.recentTracks %}
+                        <tr>
+                            <td>{{ track.title }}</td>
+                            <td>DJ Khaled</td>
+                            <td><img src= "{{ track.artwork_url }}" width="110" height="90"></td>
+                            <td>{{ track.genre }}</td>
+                        </tr>
+                    {% endfor %}
+                </table>
+        </center>
+        </fieldset>
+
+
+    </div>
+
+
+{% endblock %}
+
+{% block background %}
+{% endblock %}
